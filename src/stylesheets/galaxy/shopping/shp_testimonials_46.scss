@@ -1,0 +1,104 @@
+#shp_testimonials_46{
+	margin-top:32px;
+	@media (max-width: $screen-sm-max) 
+				{
+					margin:20px;
+				}
+	.container
+	{
+	.shpping_testimonials
+		{
+			
+			border:1px solid #343434;
+			padding:30px;
+			.test_user_info
+			{	text-align:center;
+				@media (max-width: $screen-sm-max) 
+				{
+					width:100%;
+				}
+				width:25%;
+				float:left;
+				display:table;
+				img
+				{
+					float:left;
+					@media (max-width: $screen-sm-max) 
+					{
+						float:none;
+					}
+				}
+				h4
+				{
+					@media (max-width: $screen-sm-max) 
+					{
+						float:none;
+						display:block;
+						margin:20px 0;
+					}
+					vertical-align: middle;
+					display: table-cell;
+					font-size: 22px;
+					span
+					{
+						display:block;
+						padding-top: 10px;
+						font-size: 14px;
+						line-height: 14px;
+					}								
+				}
+			}
+			.test_user_quotes
+			{
+				@media (max-width: $screen-sm-max) 
+				{
+					width:100%;
+				}
+				width:75%;
+				float:left;
+				padding:0 20px;
+				p
+				{
+				margin:0px;
+				position:relative;
+				padding:20px;
+				&:before{
+					content: "“";
+					position:absolute;
+					left:0;
+					font-size: 60px;
+				}
+				&:after{
+					content: "”";
+					position:absolute;
+					bottom:0;
+					right:0;
+					font-size: 60px;
+				}
+				}
+				a
+				{
+					margin: 0 20px 20px 20px;
+					display:inline-block;
+				}
+			}
+			.swiper-pagination {
+				position:relative;
+				
+			}
+		
+		.swiper-pagination
+		{
+			position: initial;
+		}
+		.swiper-pagination-bullet {
+			background-color: #999;
+			opacity: 1;
+			margin:0 8px;
+		}
+		.swiper-pagination-bullet-active {
+			background-color: #343434; 
+		}
+		}
+	}
+}

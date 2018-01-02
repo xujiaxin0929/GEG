@@ -1,0 +1,7 @@
+#opdp_test{
+  @extend #hotel_testimonials;
+  margin: 60px auto 67px;
+  @media (max-width:500px) {
+    margin: 24px 20px 0 20px;
+  }
+}

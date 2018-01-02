@@ -1,0 +1,126 @@
+#gm_testimonials_14{
+	height: 220px;
+	color:white;
+	border:1px solid white;
+	overflow: hidden;
+	margin-bottom: 60px;
+	@media (max-width:991px) {
+		margin-bottom: 30px;
+	}
+	.left-field{
+		padding: 42px 48px 0 60px;
+		p{
+			margin-bottom: 15px;
+		}
+		.qoute-feild{
+			position: relative;
+			font-size: 14px;
+			line-height: 23px;
+			color:white;
+			&__left{
+				position: absolute;
+				font-size: 60px; 
+				top: 0;
+				left: -28px;
+			}
+			&__right{
+				position: absolute;
+				font-size: 60px; 
+				bottom: -18px;
+				right: -20px;
+			}
+		}
+	}
+	.right-feild{
+		h4{
+			color:white;
+		}
+		text-align: right;
+		&__name{
+			padding-top: 58px;
+			font-size: 22px;
+			line-height: 22px;
+		}
+		&__date{
+			padding-top: 20px;
+			font-size: 14px;
+			line-height: 14px;
+		}
+		&__img{
+			margin-top: 30px;
+			display:inline-block;
+		}
+	}
+	.swiper-container{
+		height: 100%;
+		.swiper-pagination-bullet {
+			background-color: #999;
+			opacity: 1;
+			margin:0 8px;
+		}
+		.swiper-pagination-bullet-active {
+			background-color: white; 
+		}
+	}
+}
+@media (min-width: $screen-md-min) {/**992**/
+	#gm_testimonials_14{
+		.active_noImg{
+			.left-field{
+				width: 83.33%;
+			}
+			.right-feild{
+				width: 16.67%;
+				> div:nth-child(1){
+					display: none;
+				}
+
+				&-main{
+					width: 100%;
+				}
+			}
+		}
+	}
+	
+}
+
+@media (max-width: $screen-sm-max) { /*991**/
+	#gm_testimonials_14{
+		// min-height: 466px;
+		height: auto;
+		margin: 18px auto 0; 
+		.swiper-container{
+			padding-bottom: 55px;
+		}
+		.left-field{
+			padding: 25px 33px 0 33px; 
+		}
+		.right-feild{
+			text-align: center;
+			padding-top: 10px       
+			&__img{
+				margin: 0 auto;
+			}
+			&__name{
+				padding-top: 20px;
+			}
+			&__date{
+				padding-top: 10px;
+			}
+		}
+		.active_noImg{
+			.right-feild__img{
+				display: none;
+			}
+		}
+		.swiper-pagination{
+			bottom: 15px;
+		}
+	}
+}
+@media (max-width:580px) {
+	#gm_testimonials_14{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}

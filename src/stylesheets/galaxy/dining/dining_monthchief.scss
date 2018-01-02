@@ -1,0 +1,56 @@
+#dining_monthchief {
+    @media (max-width: 1000px) {
+        margin: 0px !important;
+    }
+    
+    margin: 53px 0 !important;
+    @extend #entertainment_startConcert;
+    .row{
+        .col-lg-4{
+            position: static !important;
+        }
+    }
+    @media (max-width: 991px) {
+        margin: 10px 0;
+    }
+    .swiper-container {
+        @media (min-width: 991px) {
+            padding-right: 10px;
+        }
+    }
+    @media (max-width:991px) {
+        .swiper-container {
+            // padding-bottom: 40px;
+        }
+    }
+    .detail {
+        .inner {
+            p:nth-child(2) {
+                letter-spacing: 1px;
+                @media (max-width: $screen-xs-max) {
+                    letter-spacing: 0.4px;
+                }
+            }
+        }
+        @media only screen and (max-width: 992px) {
+            margin-top: 5%;
+        }
+        @media (max-width: $screen-xs-max) {
+            margin-top: 0px;
+        }
+        @media (min-width: 993px) {
+            margin-top: 5%;
+            padding-left: 20px;
+        }
+        @media (min-width: $screen-lg-min) {
+            margin-top: 8%;
+        }
+    }
+    .discover-show {
+        margin: 30px 0 0 -15px;
+        @extend #discover_articles;
+        @media (max-width: 991px) {
+            margin-left: 0;
+        }
+    }
+}

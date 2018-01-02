@@ -1,0 +1,38 @@
+#news_message {
+    @media(max-width: $screen-sm-max) {
+        margin-top: 37px;
+        padding: 0 20px;
+    }
+    .row {
+        div {
+            overflow: hidden;
+            h2 {
+                font-size: 22px;
+                color: #343434;
+                width: 130px;
+                // background: #fff;
+                margin: 0px;
+                position: relative;
+                @media(max-width: $screen-sm-max){
+                    font-size: 20px;
+                    width: 86px;
+                }
+            }
+            h2:before {
+                content: "";
+                display: block;
+                height: 1px;
+                width: 1000px;
+                color: #e3e2e2;
+                background: #e3e2e2;
+                border-top: 1px solid #e3e2e2;
+                position: absolute;
+                top: 10px;
+                left: 130px;
+                @media(max-width: $screen-sm-max){
+                    left: 100px;
+                }
+            }
+        }
+    }
+}

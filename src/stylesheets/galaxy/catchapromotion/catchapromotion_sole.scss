@@ -1,0 +1,75 @@
+#catchapromotion_sole {
+    @media (max-width: $screen-sm-max) {
+        margin-top: 35px;
+    }
+    >.container {
+        margin-top: 15px;
+        @media (max-width: $screen-sm-max) {
+            margin-top: 10px;
+        }
+        @extend #res_nav_content;
+        .tab_bar {
+            padding: 0 20px;
+            li {
+                width: 14.28%;
+                @media(max-width:$screen-sm-max){
+                    width: 100%;
+                }
+            }
+        }
+        .panel-heading {
+            @media (max-width: $screen-sm-max) {
+                padding: 0 12px;
+            }
+        }
+    }
+    .catchapromotion_sole_show {
+        @extend #wtd_food_entertainment_40;
+        margin-top: 30px;
+        .caption {
+            p {
+                margin-bottom: 12px;
+            }
+        }
+        .sole_show_item {
+            display: none;
+            &.show {
+                display: block;
+            }
+            .show_load_more {
+                font-size: 18px;
+                color: #997442;
+                &:hover {
+                    border-bottom: 1px solid #997442;
+                    text-decoration: none;
+                }
+            }
+        }
+        .show-time {
+            font-size: 14px;
+            color: #343434;
+            margin-bottom: 12px;
+            .glyphicon-time {
+                margin: -1px 6px 0 0;
+                top: 0;
+                &:before {
+                    content: "";
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    background: url(../images/time-iconi.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+        }
+    }
+    .items {
+        display: none;
+    }
+    .ok {
+        display: block;
+    }
+    .load_more_none{
+        display: none;
+    }
+}

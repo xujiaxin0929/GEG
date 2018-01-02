@@ -1,0 +1,6 @@
+#micepage_field{
+  @extend #hotel_rooms;
+  @media (max-width:$screen-sm-max){
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,207 @@
+#dishoftheweek_details {
+    .dishoftheweek_content {
+        font-size: 16px;
+        color: #000;
+        line-height: 30px;
+        @media (max-width: $screen-xs-max) {
+            font-size: 15px;
+            line-height: 25px;
+            color: #343434;
+            padding: 0 11px;
+        }
+    }
+    .dishoftheweek_details_show {
+        margin-top: 20px;
+        .row {
+            position: relative;
+            margin-bottom: 30px;
+            @media (max-width: $screen-xs-max) {
+                margin-bottom: 0;
+            }
+            &:nth-child(odd) {
+                .desc {
+                    padding-right: 30px;
+                    padding-left: 0;
+                    right: auto;
+                    left: 0;
+                }
+                .pic {
+                    float: right;
+                    @media (max-width: $screen-xs-max) {
+                        float: none;
+                    }
+                }
+            }
+            .desc {
+                position: absolute;
+                width: 51.2%;
+                padding-left: 30px;
+                padding-right: 0;
+                font-size: 30px;
+                line-height: 30px;
+                color: #000;
+                position: absolute;
+                left: auto;
+                right: 0;
+                top: 0;
+                height: 100%;
+                @media (max-width: $screen-xs-max) {
+                    width: 100%;
+                    padding: 12px 12px 20px !important;
+                    position: static;
+                }
+                .table-box {
+                    display: table;
+                    height: 100%;
+                    .inner {
+                        display: table-cell;
+                        vertical-align: middle;
+                        p {
+                            font-size: 16px;
+                            line-height: 30px;
+                            color: #000;
+                            @media (max-width: $screen-xs-max) {
+                                font-size: 15px;
+                                line-height: 25px;
+                                color: #343434;
+                                margin-top: 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .pic {
+                float: left;
+                width: 48.8%;
+                @media (max-width: $screen-xs-max) {
+                    width: 100%;
+                    float: none;
+                }
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .dishoftheweek_details_show2 {
+        .col-lg-4 {
+            @media (min-width: $screen-md-min) {
+                padding-right: 30px;
+            }
+        }
+        .col-lg-8 {
+            @media (min-width: $screen-sm-min) {
+                padding-top: 2%;
+            }
+            @media (max-width:$screen-xs-max) {
+                padding: 22px 11px 0;
+            }
+        }
+        h4 {
+            @media (max-width: $screen-xs-max) {
+                font-size: 18px;
+                color: #343434;
+            }
+        }
+        p {
+            &.desc {
+                font-size: 16px;
+                color: #000;
+                line-height: 30px;
+                margin: 10px 0 15px;
+                @media (max-width: $screen-xs-max) {
+                    font-size: 15px;
+                    color: #343434;
+                    line-height: 30px;
+                }
+            }
+            margin-top: 2px;
+            @media (max-width:$screen-xs-max) {
+                font-size: 12px;
+            }
+        }
+        .glyphicon {
+            font-size: 13px;
+            color: #343434;
+            margin-right: 10px;
+        }
+        .btn-info {
+            margin-top: 32px;
+            padding: 6px 60px;
+            @media (max-width: $screen-sm-max) {
+                display: block;
+                margin: 23px 23px 0;
+            }
+        }
+    }
+    .dishoftheweek_testimonials {
+        height: 220px;
+        border: 1px solid #343434;
+        overflow: hidden;
+        margin: 50px 0;
+        @media (max-width:$screen-sm-max) {
+          margin:5px 0 35px;
+          height:auto;
+        }
+        @media (max-width:$screen-xs-max) {
+          margin:5px 20px 35px;
+          height:auto;
+        }
+        .left-field {
+            padding: 70px 100px 0;
+            @media (max-width:$screen-sm-max) {
+                  padding: 30px 42px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            .qoute-feild {
+                position: relative;
+                font-size: 14px;
+                line-height: 23px;
+                color: #343434;
+                &__left {
+                    position: absolute;
+                    font-size: 60px;
+                    top: 0;
+                    left: -28px;
+                }
+                &__right {
+                    position: absolute;
+                    font-size: 60px;
+                    bottom: -18px;
+                    right: -20px;
+                }
+            }
+        }
+        .right-feild {
+            padding-left: 30px;
+            @media (max-width: $screen-md-max) {
+                text-align: center;
+            }
+            @media (max-width:$screen-sm-max) {
+              padding-left: 0;
+            }
+            &__name {
+                padding-top: 75px;
+                font-size: 22px;
+                line-height: 22px;
+                @media (max-width:$screen-sm-max) {
+                  padding-top: 35px;
+                }
+            }
+            &__date {
+                padding-top: 20px;
+                font-size: 14px;
+                line-height: 14px;
+                @media (max-width:$screen-sm-max) {
+                  padding-top: 10px;
+                }
+            }
+            &__img {
+                margin-top: 30px;
+                display: inline-block;
+            }
+        }
+    }
+}

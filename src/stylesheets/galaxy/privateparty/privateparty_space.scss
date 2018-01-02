@@ -1,0 +1,13 @@
+#privateparty_space {
+    @extend #banquet_space;
+    .right-feild {
+        .detail {
+            @media (max-width:$screen-xs-max) {
+              padding-top: 20px;
+            }
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

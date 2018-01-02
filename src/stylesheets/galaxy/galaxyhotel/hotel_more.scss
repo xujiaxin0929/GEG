@@ -1,0 +1,32 @@
+#hotel_more{
+	@extend #hp_occasions_11;
+  .caption{
+  	padding-bottom: 13px;
+		>p{
+			font-size: 14px;
+			color:#343434;
+			line-height: 22px;
+			overflow:hidden;
+			margin-bottom: 20px;
+		}
+	}
+}
+@media (max-width: $screen-xs-max) {
+	#hotel_more{
+		margin-top: 40px;
+		padding-left: 0;
+		padding-right: 0;
+		h3{
+			margin: 0 12px;
+			span{
+				padding: 0 30px;
+				 @media (max-width: $screen-xs-min) {
+              padding: 0 8px;
+          }
+			}
+		}
+		.lead{
+			margin: 13px 0;
+		}
+	}
+}

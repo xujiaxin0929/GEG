@@ -1,0 +1,36 @@
+#macallanduo_courtesy{
+  @extend #hp_occasions_11;
+  .swiper-slide{
+  }
+  h3{
+    margin-bottom: 26px;
+  }
+  .swiper-container-wrapper{
+    @media (max-width:767px) {
+        margin: 0 12px;
+        border: 1px solid #bbb;
+        .control{
+          top: 30%;
+        }
+    }
+    .swiper-container{
+      @media (max-width:767px) {
+        padding-bottom: 15px;
+      }
+    }
+  }
+  .caption{
+    a{
+      bottom:8px;
+    }
+    p{
+      @media (max-width:767px) {
+        height: 40px;
+        margin-bottom: 23px;
+      }
+    }
+    @media (max-width:767px) {
+      padding-bottom: 10px;
+    }
+  }
+}

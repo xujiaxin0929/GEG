@@ -1,0 +1,12 @@
+#shop_details_img
+{
+	@media screen and (max-width: $screen-sm-max)
+	{
+		margin-top:14px;
+	}
+	img
+	{
+		width:100%;
+		float:left;
+	}
+}

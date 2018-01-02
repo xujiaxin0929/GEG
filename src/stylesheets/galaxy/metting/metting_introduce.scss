@@ -1,0 +1,19 @@
+#metting_introduce{
+  @media (max-width: $screen-sm-max) {
+        margin-top: 42px !important;
+        .mett_in_btn{
+          margin-top: 21px;
+        }
+    }
+  @extend #micepage_introduce;
+  .btn-info{
+    @media (max-width:991px) {
+      margin-top: 0;
+      display: block;
+      margin: 0 37px;
+      font-size: 17px;
+      line-height: 38px;
+      padding:0;
+    }
+  }
+}

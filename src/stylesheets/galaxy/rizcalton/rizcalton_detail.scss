@@ -1,0 +1,38 @@
+#rizcalton_detail{
+  @extend #macallanduo_detail;
+  .macallanduo_detail_top{
+     @media (max-width:991px) {
+      margin-bottom: 10px;
+     }
+    .hidden-lg{
+      @media (max-width:991px) {
+        float: none;
+        text-align: center;
+        margin: 0;
+        img{
+          width: 176px;
+        }
+      }
+    }
+  }
+  .col-my-7{
+    h3{
+      @media (max-width: 991px) {
+        margin-bottom: 0;
+        padding-top: 20px;
+        font-weight: normal;
+      }
+    }
+  }
+  .share_bottom{
+    text-align: center;
+    font-size: 15px;
+    margin:-15px 0 15px;
+  }
+  .macallanduo_detail_line{
+    padding-top: 0 !important;
+    &:after{
+      display: none;
+    }
+  }
+}

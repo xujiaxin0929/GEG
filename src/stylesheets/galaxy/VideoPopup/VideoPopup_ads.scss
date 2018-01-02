@@ -1,0 +1,18 @@
+// #dining_ads{
+// 	@extend #hotel_testimonials;
+// }
+
+#VideoPopup_ads{
+  @extend #hotel_testimonials;
+  margin: 24px auto 67px;
+  @media (max-width:767px) {
+    margin: 0 20px 0 20px;
+  }
+  @media (max-width: 1000px){
+    // margin-top: 39px;
+  }
+  .qoute-feild{
+    letter-spacing: 1px;
+    line-height: 24px !important;
+  }
+}

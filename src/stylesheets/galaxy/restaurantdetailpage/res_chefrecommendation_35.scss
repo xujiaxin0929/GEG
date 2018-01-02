@@ -1,0 +1,12 @@
+
+#res_chefrecommendation_35 {
+    @extend #res_specialoffers_37;
+    .control{
+        display: none;
+    }
+    @media (max-width: 991px) {
+        .control{
+            display: block;
+        }
+    }
+}

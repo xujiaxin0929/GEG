@@ -1,0 +1,316 @@
+#dining_res {
+    margin-top: 78px;
+    @media (max-width: 1000px) {
+        margin-top: 39px;
+    }
+    h3 {
+        margin-bottom: 30px;
+    }
+    .logopos {
+        width: 88px;
+        height: 48px; // position: absolute;
+        top: 50px;
+        right: 53px; // top: 19px;
+        margin-top: -20px; // right: 17px;
+        float: right;
+        width: auto;
+    }
+    .control {
+        top: 50%;
+        margin-top: -30px;
+        @media (max-width: $screen-sm-max) {
+            top: 25%;
+            margin-top: 0px;
+        } // @media (max-width: $screen-xs-max) {
+        // 	top:42%;
+        // }
+    }
+    @media (max-width: $screen-xs-max) {
+        // padding-left: 12px;
+        // padding-right: 12px;
+        .detail {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+            ul {
+                padding-left: 0;
+                position: relative;
+                overflow: hidden;
+                list-style: none;
+            }
+            li {
+                font-size: 15px
+            }
+            li:before {
+                width: 5px;
+                height: 5px;
+                content: '';
+                display: inline-block;
+                margin-right: 5px;
+                background: #fff;
+                vertical-align: middle;
+                border-radius: 50%;
+            }
+        }
+    }
+    .swiper-container {
+        .swiper-wrapper {
+            .swiper-slide {
+                opacity: 0.5;
+                &.swiper-slide-active {
+                    opacity: 1;
+                    background-color: #343434;
+                } // border: 1px solid #bbbbbb;
+                position: relative; // padding: 20px;
+                @media screen and (max-width: $screen-xs-max) {
+                    padding: 0;
+                } //@media (min-width: $screen-sm-min) and (max-width: $screen-md-max){width: 780px;}
+                @media (min-width: 760px) {
+                    .logopos {
+                        top: 19px;
+                        right: 24px;
+                    }
+                    >div.img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    >div.detail {
+                        width: 100%;
+                        padding-top: 50px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        padding-bottom: 164px; // padding-bottom: 138px;// height: auto;
+                        h5 {
+                            font-size: 17px;
+                        }
+                        .pricetag {
+                            font-size: 14px;
+                            text-align: left; // padding-top: 20px;
+                            line-height: 28px;
+                        }
+                        .martop {
+                            // margin-top: 43px;
+                        }
+                        .priceo {
+                            font-size: 14px;
+                            text-align: left; // padding-top: 20px;
+                            line-height: 28px;
+                            .psty {
+                                width: 86%;
+                                font-size: 14px;
+                                line-height: 28px;
+                            }
+                        }
+                        a {
+                            font-size: 14px;
+                            bottom: 7%;
+                            left: 3%;
+                        }
+                    }
+                }
+                @media (min-width: 1000px) {
+                    .logopos {
+                        top: 19px;
+                        right: 17px;
+                    }
+                    >div.img {
+                        // width: 50%;
+                        // height: 428px;
+                    }
+                    >div.detail {
+                        // width: 50%;
+                        padding-top: 48px;
+                        padding-left: 30px;
+                        padding-right: 16px;
+                        padding-bottom: 56px; // height: 428px;
+                        h5 {
+                            font-size: 17px;
+                        }
+                        .pricetag {
+                            // padding-left: 18px;
+                            font-size: 14px; // font-weight: bold;
+                            text-align: left;
+                            padding-top: 12px;
+                            line-height: 23px; // padding-bottom: 20px;
+                        }
+                        .priceo {
+                            font-size: 14px; // font-weight: bold;
+                            text-align: left;
+                            padding-top: 2px;
+                            line-height: 23px; // padding-bottom: 20px;
+                            .psty {
+                                width: 88%;
+                                float: left;
+                                margin-top: 0;
+                                font-size: 14px;
+                                line-height: 23px;
+                            }
+                        }
+                        .pricetagbtn {
+                            position: absolute;
+                            bottom: 3%; // left: 8%;
+                        }
+                        .martop {
+                            // margin-top: 32px;
+                        } // .martop {
+                        //     margin-top: 32px;
+                        // }
+                    }
+                }
+                @media (min-width: 1240px) {
+                    .logopos {
+                        top: 88px;
+                        right: 45px;
+                    }
+                    >div.img {
+                        width: 50%; // height: 428px;
+                        img {
+                            width: 100%; // height: 428px;
+                        }
+                    }
+                    >div.detail {
+                        width: 50%;
+                        padding: 40px;
+                        a {
+                            left: 8%;
+                            bottom: 0px;
+                        }
+                        h5 {
+                            font-size: 22px;
+                        }
+                    }
+                }
+                @media (min-width: 1650px) {
+                    >div.img {
+                        width: 50%;
+                        height: auto;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    >div.detail {
+                        width: 50%;
+                        padding: 110px 50px 65px 60px;
+                    }
+                }
+                .img {
+                    overflow: hidden;
+                    @media(min-width: $screen-sm-min) {
+                        padding-left: 0;
+                    }
+                    img {
+                        transition: 0.56s;
+                        width: 100%; // height: 428px;
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: 0.36s;
+                        }
+                        @media(max-width: $screen-xs-max) {
+                            width: 100%;
+                            height: 280px;
+                        }
+                    }
+                }
+                .detail {
+                    padding: 24px;
+                    color: #fff;
+                    h5 {
+                        color: #fff;
+                        font-weight: normal;
+                        font-size: 18px;
+                    }
+                    .pricetag {}
+                    @media(max-width: $screen-xs-max) {
+                        // padding-bottom: 0;
+                        h5 {
+                            text-align: center;
+                            font-size: 17px;
+                            span{display: block;text-align: left;}
+                        }
+                    }
+                    @media (min-width: $screen-sm-min) {
+                        // background-color: white;
+                        // height: 550px;
+                        .desc {
+                            // padding-left: 0;
+                            // li:before{
+                            // 	content: '';
+                            // 	display: inline-block;
+                            // 	width: 8px;
+                            // 	height: 8px;
+                            // 	background: #343434;
+                            // 	border-radius: 50%;
+                            // 	margin-right: 12px;
+                            // }
+                        }
+                    }
+                }
+                .pricetag {
+                    // padding-left: 18px;
+                    font-size: 14px; // font-weight: bold;
+                    text-align: left;
+                    padding-top: 12px;
+                    line-height: 23px; // padding-bottom: 20px;
+                }
+                .priceo {
+                    font-size: 14px; // font-weight: bold;
+                    text-align: left;
+                    padding-top: 12px;
+                    line-height: 23px; // padding-bottom: 20px;
+		    overflow:hidden;
+                    span {
+                        float: left;
+                    }
+                    .psty {
+                        width: 88%;
+                        float: left;
+                        margin-top: 0;
+                    }
+                }
+                .pricetagbtn {
+                    position: absolute;
+                    bottom: 0;
+                }
+                .martop {
+                    // margin-top: 10px;
+                }
+                @media (max-width: $screen-xs-max) {
+                    .logopos {
+                        top: 22px;
+                        right: 24px;
+                        float: none;
+                        margin-bottom: 15px;
+                    }
+                    .detail {
+                        // height: 550px;
+                        padding: 45px 0;
+                        .psty {
+                            width: 86%;
+                        }
+                        a {
+                            bottom: 25px;
+                            left: 3%;
+                        }
+                    }
+                }
+                .btn {
+                    margin-top: 25px;
+                    @media screen and (max-width: $screen-xs-max) {
+                        width: 100%;
+                    }
+                }
+
+                .priceo_nofloat{
+                    float: none;
+                }
+                .ulsty{
+                    // padding-left: 20px;
+                    margin-top: 30px;
+                    li{
+                        font-size: 14px;
+                        line-height: 23px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+#macallanduo_detail{
+  margin-top: 18px;
+  .macallanduo_detail_share{
+    text-align: right;
+    font-size: 16px;
+    a{
+      color: #343434;
+      margin-left: 18px;
+      font-size: 25px;
+      vertical-align: middle;
+      &:focus{
+        text-decoration: none;
+      }
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
+  .macallanduo_detail_top{
+    overflow:hidden;
+    .hidden-lg{
+      float:left;
+      margin-right: 25px;
+      img{
+        width:135px;
+      }
+    }
+    @media (max-width:991px) {
+      margin-bottom: 20px;
+    }
+  }
+  .row{overflow:hidden;}
+  .col-my-3{
+    float: left;
+    width: 30%;
+    padding: 0 45px 0 70px;
+    text-align: center;
+    img{
+      max-width:100%;
+    }
+  }
+  .col-my-7{
+    float: left;
+    width: 70%;
+    @media (max-width:991px) {
+      float:none;
+      width:100%;
+      padding: 12px 12px 15px;
+    }
+    padding-right: 70px;
+    h3{
+      font-size: 30px;
+      color:#343434;
+      font-weight: 600;
+      margin:0;
+      margin-bottom: 12px;
+       @media (max-width:991px) {
+        font-size: 25px;
+        padding-top: 51px;
+       }
+    }
+    .macallanduo_detail_text{
+      font-size: 16px;
+      line-height: 30px;
+      color:#000;
+      position: relative;
+      @media (max-width:991px) {
+        font-size: 15px;
+        line-height: 25px;
+       }
+      &.macallanduo_detail_line{
+        padding-top: 30px;
+        margin-top: 30px;
+        @media (max-width:991px) {
+          padding-top: 15px;
+          margin-top: 15px;
+         }
+        >div{
+          overflow:hidden;
+          p{
+            overflow:hidden;
+            font-size: 14px;
+            >a{
+              font-size: 16px;
+              color:#000;
+              &:hover{color:#000;text-decoration: none;}
+              &:focus{color:#000;text-decoration: none;}
+            }
+          }
+          span{float:left;}
+          .glyphicon{
+            display:inline-block;
+            font-size: 16px;
+            margin-right: 8px;
+            vertical-align: middle;
+            color: #9a9a9a;
+            margin-top: -4px;
+            &.glyphicon-time:before {
+                content: "";
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                background: url(../images/time-iconi.svg) no-repeat;
+                margin-top: -1px;
+            }
+          }
+        }
+        &:after{
+          content:"";
+          background:#bbb;
+          width:145px;
+          height:1px;
+          position:absolute;
+          top:0;
+          left:0;
+        }
+      }
+    }
+  }
+}

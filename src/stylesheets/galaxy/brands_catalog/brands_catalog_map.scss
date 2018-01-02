@@ -1,0 +1,9 @@
+#brands_catalog_map{
+    margin-top:52px;
+    @media(max-width:$screen-sm-max){
+        margin-top: 0px;
+    }
+    img{
+        width:100%;
+    }
+}

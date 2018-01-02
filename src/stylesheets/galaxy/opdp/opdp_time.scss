@@ -1,0 +1,108 @@
+#opdp_time {
+    margin-top: 40px;
+    .row {
+        div {
+            h2 {
+                margin: 0px;
+                font-size: 22px;
+                line-height: 30px;
+                margin-bottom: 14px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 30px;
+                margin: 0px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                // max-height: 578px;
+            }
+        }
+        .opdp_img {
+            padding-left: 30px;
+        }
+        .opdp_none {
+            display: none;
+        }
+    }
+    .opdp_timebottom {
+        margin-top: 30px;
+    }
+    @media (max-width: $screen-sm-max) {
+        margin-top: 29px;
+        padding: 0 11px;
+        .row {
+            div {
+                h2 {
+                    margin-bottom: 23px;
+                    font-size: 17px;
+                    line-height: 19px;
+                    font-weight: 700;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 25px;
+                }
+            }
+            .opdp_none {
+                display: block;
+            }
+            .opdp_img {
+                padding-left: 0px;
+                margin-top: 19px;
+            }
+        }
+        .opdp_timebottom {
+            margin-top: 10px;
+        }
+    }
+    .new_opdp_txt {
+        padding-left: 30px;
+        margin-top: 10%;
+        @media (min-width: 1720px){
+            margin-top: 20%;
+        }
+        @media (max-width: $screen-sm-max) {
+            display: none;
+        }
+        .qoute-feild {
+            position: relative;
+            margin: 0px;
+            span {
+                font-size: 20px;
+                line-height: 36px;
+                text-align: left;
+                color: #343434;
+            }
+            .qoute-feild__left {
+                position: absolute;
+                font-size: 60px;
+                top: -6px;
+                left: 0px;
+                color: #adadad;
+            }
+            .qoute-feild__right {
+                position: absolute;
+                font-size: 60px;
+                bottom: -10px;
+                right: 0px;
+                color: #adadad;
+            }
+            .opdp_exp_box {
+                display: block;
+            } // .opdp_exp_third{
+            //     display: block;
+            // }
+            // .opdp_exp_fourth{
+            //     display: block;
+            // }
+            // .opdp_exp_fifth{
+            //     display: block;
+            // }
+            .opdp_exp_common {
+                display: block;
+            }
+        }
+    }
+}

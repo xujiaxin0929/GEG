@@ -1,0 +1,8 @@
+#rizcalton_lounge{
+  @extend #macallanduo_taste;
+  h3{
+    @media (max-width:991px) {
+      margin-bottom: 15px;
+    }
+  }
+}

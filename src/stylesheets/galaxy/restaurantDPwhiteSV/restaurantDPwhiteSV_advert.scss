@@ -1,0 +1,72 @@
+#restaurantDPwhiteSV_advert{
+	margin-bottom: 60px;
+	background: #ccc;
+	height: 122px;
+	background: url(../images/hotel_advertisement-1.jpg) no-repeat left top;
+	background-size: cover;
+	padding-left: 35%;
+	@media (min-width: 1000px) {
+		padding-left: 420px;
+	}
+	@media (min-width: 1240px) {
+		padding-left: 470px;
+	}
+	@media (max-width: 1000px) {
+		padding-left: 0;
+		background: url(../images/hotel_advertisement-2.png) no-repeat center;
+		background-size: cover;
+		text-align: center;
+	}
+
+	.hotel_advertisement-main{
+		float: left;
+		padding-top: 20px;
+		@media (max-width: 1000px) {
+			padding-top: 10px;
+			float: none;
+			color: #fff;
+		}
+		&__header{
+			font-size: 28px; 
+			@media (max-width: 1240px) {
+				font-size: 24px;
+			}
+			@media (max-width: 1000px) {
+				font-size: 18px;
+				text-align: center;
+			}
+		}
+		&__describe{
+			font-size: 18px;
+			margin-top: 10px;
+			margin-bottom: 0;
+			@media (max-width: 1240px) {
+				font-size: 16px;
+			}
+			@media (max-width: 1000px) {
+				font-size: 13px;
+				text-align: center;
+			}
+		}	
+	}
+	.btn{
+		margin-right: 32px;
+		margin-top: 44px;
+		float: right;
+		padding: 10px 62px;
+		@media (max-width: 1240px) {
+				margin-right: 16px;
+				padding: 6px 35px;
+			}
+		@media (max-width: 1000px) {
+			margin: 0 auto;
+			float: none;
+			margin-right: 0;
+			margin-top:16px;
+			padding: 4px 34px;
+			border-color: #fff;
+			color:#fff;
+			font-size: 10px;
+		}
+	}
+}

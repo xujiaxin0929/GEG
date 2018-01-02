@@ -1,0 +1,215 @@
+#VideoPopup_week {
+    margin-top: 80px;
+    @media (max-width: $screen-sm-max) {
+        margin-top: 74px;
+    }
+    @media (max-width:$screen-xs-max) {
+        margin-top: 37px;
+    }
+    .container {
+        .row_week {
+            .first_box_left {
+                padding-right: 15px;
+                @media(max-width:$screen-sm-max){
+                    padding-right: 0px;
+                }
+                h4 {
+                    font-size: 22px;
+                    color: #343434;
+                    margin-bottom: 15px;
+                    @media(max-width:$screen-xs-max){
+                        padding-left: 20px;
+                        font-size: 20px;
+                    }
+                }
+                .row {
+                    // padding-right: 30px;
+                    background-color: #f4f4f4;
+                    -webkit-align-items: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    display: -webkit-flex;
+                    display: flex;
+                    @media(max-width:$screen-xs-max){
+                        display: block;
+                    }
+                    // @media (max-width: 1240px) {
+                    //     padding-right: 15px;
+                    // }
+                    .week {
+                        
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                        ul {
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                          
+                            margin-left: 15%;
+                            margin-top: 0px;
+                            margin-bottom: 0px;
+                            
+                            li {
+                                font-size: 22px;
+                                line-height: 24px;
+                                color: #997644;
+                                margin-bottom: 32px;
+                                a {
+                                    &:hover {
+                                        color: #997644;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .week_right{
+                        .more{
+                            display: none;
+                        }
+                        @media(max-width: $screen-xs-max){
+                            margin-top: 36px;
+                            ul{
+                                margin-left: 30%;
+                                li{
+                                    font-size: 18px;
+
+                                }
+                            }
+                            .more{
+                                display: block;
+                                width: 305px;
+                                height: 33px;
+                                border: 1px solid #997644;
+                                color: #997644;
+                                text-align: center;
+                                margin: 0 auto;
+                                line-height: 33px;
+                                font-size: 18px;
+                                margin-bottom: 23px;
+                            }
+                        }
+                    }
+                }
+                .week_more {
+                    margin-top: 28px;
+                    @media (max-width: $screen-xs-max) {
+                        display: none;
+                    }
+                    a {
+                        display: block;
+                        margin: 0 auto;
+                        width: 208px;
+                        height: 36px;
+                        border: 1px solid #997644;
+                        text-align: center;
+                        line-height: 36px;
+                        font-size: 16px;
+                        text-decoration: none;
+                        &:hover {
+                            background-color: #997644;
+                            color: white;
+                        }
+                    }
+                }
+            }
+           .first_box_right {
+                padding-left: 8px;
+                @media(max-width:$screen-sm-max){
+                    padding-left: 0px;
+                }
+                h4 {
+                    font-size: 22px;
+                    color: #343434;
+                    margin-bottom: 15px;
+                     @media(max-width:$screen-sm-max){
+                         margin-top: 24px;
+                     }
+                     @media(max-width:$screen-xs-max){
+                         padding-left: 20px;
+                         font-size: 20px;
+                     }
+                    // margin-left: 30px;
+                }
+                .row {
+                    // padding-left: 30px;
+                    // @media (max-width: 1240px) {
+                    //     padding-left: 10px;
+                    // }
+                    .share_youtube {
+                        position: relative;
+                        .video_bgc {
+                            width: 100%;
+                        }
+                        .video_start {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            margin-left: -36px;
+                            margin-top: -36px;
+                            cursor: pointer;
+                        }
+                        .share_bottom {
+                            width: 100%;
+                            height: 40px;
+                            padding-left: 18px;
+                            line-height: 40px;
+                            font-size: 14px;
+                            color: #343434;
+                            position: absolute;
+                            bottom: 0px;
+                            left: 0px;
+                            background-color: white;
+                            opacity: 0.8;
+                        }
+                    }
+                    .week_more_video {
+                        margin-top: 28px;
+                        a {
+                            display: block;
+                            margin: 0 auto;
+                            width: 208px;
+                            height: 36px;
+                            border: 1px solid #997644;
+                            text-align: center;
+                            line-height: 36px;
+                            font-size: 16px;
+                            text-decoration: none;
+                            &:hover {
+                                background-color: #997644;
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .video_show{
+        position: fixed;
+        left: 35%;
+        top: 100px;
+        z-index: 9999;
+        display: none;
+        .video_btn{
+            height: 40px;
+            font-size: 26px;
+            color: #997644;
+            opacity: 0.8;
+            text-align: right;
+            cursor: pointer;
+            z-index: 9999;
+        }
+    }
+    .video_hide{
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        display: none;
+        background-color: #000;
+        opacity: 0.8;
+        z-index: 9998;
+    }
+}

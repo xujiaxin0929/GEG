@@ -1,0 +1,59 @@
+#iDeal_card {
+    margin-top: 82px;
+    .row {
+        div {
+            text-align: center;
+            &:nth-child(2) {
+                padding-left: 42px;
+                padding-top: 28px;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                @media(min-width:$screen-md-max){
+                    width: 50%;
+                }
+                @media(max-width:$screen-md-min){
+                    width: 30%;
+                }
+                @media(min-width:$screen-md-max){
+                    width: 100%;
+                }
+
+            }
+            span {
+                font-size: 18px;
+                line-height: 30px;
+                color: #343434;
+            }
+        }
+    }
+     @media (min-width: $screen-md-max){
+         .row{
+             div{
+                 text-align: center;
+             }
+         }
+     }
+    @media (max-width: $screen-xs-max) {
+        margin-top: 24px;
+        .row {
+            div {
+                text-align: center;
+                &:nth-child(2) {
+                    padding:0 13px;
+                    padding-top: 21px;
+                    text-align: left;
+                }
+                img {
+                    max-width: 150px;
+                }
+                span {
+                    text-align: left;
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+}

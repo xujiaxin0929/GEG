@@ -1,0 +1,72 @@
+#opdp_explain{
+    margin-top: 75px;
+    .row{
+        div{
+            .qoute-feild{
+                position: relative;
+                margin: 0px;
+                span{
+                    font-size: 20px;
+                    line-height: 36px;
+                    text-align: center;
+                    color: #343434;
+                }
+                .qoute-feild__left{
+                    position: absolute;
+                    font-size: 60px;
+                    top: 10px;
+                    left: 228px;
+                    color: #adadad;
+                }
+                .qoute-feild__right{
+                    position: absolute;
+                    font-size: 60px;
+                    bottom: -10px;
+                    right: 276px;
+                    color: #adadad;
+                }
+                .opdp_exp_box{
+                    display: block;
+                }
+                // .opdp_exp_third{
+                //     display: block;
+                // }
+                // .opdp_exp_fourth{
+                //     display: block;
+                // }
+                // .opdp_exp_fifth{
+                //     display: block;
+                // }
+                .opdp_exp_common{
+                    display: block;
+                }
+            }
+        }
+    }
+    @media (max-width: $screen-sm-max) {
+        margin-top: 42px;
+        padding: 0 11px;
+        .row{
+            padding: 0 12px;
+            div{
+                .qoute-feild{
+                    span{
+                        font-size: 20px;
+                        line-height: 30px;
+                        .opdp_exp_first{
+                            display: block;
+                        }
+                    }
+                    .qoute-feild__left{
+                        left: 10px;
+                        top: 10px;
+                    }
+                    .qoute-feild__right{
+                        right: 144px;
+                        bottom: -12px;
+                    }
+                }
+            }
+        }
+    }
+}

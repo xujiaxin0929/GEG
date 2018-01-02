@@ -1,0 +1,208 @@
+#hotel_wets_23 {
+    position:relative;
+    @media (max-width: $screen-sm-max) {
+        margin-top: 40px;
+    }
+    .col-lg-6 {
+        position:static;
+        .swiper-container {
+            overflow: hidden;
+            .left {
+                left: 12px;
+                top: 42%;
+                display: none;
+                span {
+                    background-color: rgba(0, 0, 0, 0.6);
+                    color: #fff;
+                    border: none;
+                }
+                @media (max-width:991px) {
+                    display: block !important;
+                }
+            }
+            .right {
+                right: 12px;
+                top: 42%;
+                display: none;
+                span {
+                    background-color: rgba(0, 0, 0, 0.6);
+                    color: #fff;
+                    border: none;
+                }
+                @media (max-width:991px) {
+                    display: block !important;
+                }
+            }
+        }
+        .detail {
+            padding: 30px 30px 15px 30px;
+            margin-right: 10px;
+            color: #343434;
+            @media (max-width: $screen-xs-max) {
+                border: none;
+            }
+            h4 {
+                @media (max-width: $screen-xs-max) {
+                    text-align: center;
+                }
+            }
+            > p {
+                margin: 16px 0 25px;
+            }
+            .logo {
+                img {
+                    height: 42px;
+                }
+                float:right;
+                margin-top:-16px;
+                right: 25px;
+                @media (max-width: $screen-xs-max) {
+                    position: static;
+                    margin-top: 0;
+                    text-align: center;
+                }
+            }
+            .location {
+                margin-top: -10px;
+                margin-bottom: 20px;
+                font-size: 12px;
+                span {
+                    margin-right: 2px;
+                    color: #9a9a9a;
+                    font-size: 15px;
+                    vertical-align: middle;
+                }
+            }
+            .more {
+                position:absolute;
+                bottom: 5px;
+                @media (max-width: $screen-xs-max) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .filed-left {
+        margin-right: 10px;
+        overflow: hidden;
+        @media (max-width: $screen-sm-max) {
+            margin-right: 0;
+        }
+    }
+    .filed-right {
+        margin-left: 10px;
+        overflow: hidden;
+        @media (max-width: $screen-sm-max) {
+            margin-left: 0;
+        }
+    }
+    .temp3 {
+        padding-top: 50px;
+        padding-bottom: 55px;
+        background-color: white;
+        .tiles {
+            margin-top: 29px;
+            .tile {
+                height: 650px;
+                background-color: #f7f3ec;
+                border-left: 20px solid white;
+                border-right: 20px solid white;
+                padding: 0;
+                margin-bottom: 20px;
+                .temp3-swiper-1 {
+                    height: 400px;
+                    padding: 0;
+                }
+                .detail {
+                    padding: 45px 25px;
+                    position: relative;
+                    h4 {
+                        font-size: 24px;
+                    }
+                    p {
+                        margin-top: 16px;
+                        margin-bottom: 16px;
+                    }
+                    .icons {
+                        color: #997542;
+                        .location {
+                            float: left;
+                        }
+                        .more {
+                            float: right;
+                            span {
+                                margin-left: 4px;
+                            }
+                        }
+                        margin-bottom: 20px;
+                    }
+                    .clear {
+                        clear: both;
+                    }
+                    .btn {
+                        letter-spacing: 2px;
+                        margin-top: 25px;
+                        color: #997542;
+                        font-size: 18px;
+                        border-radius: 0;
+                        padding: 6px 45px;
+                        border: 1px solid #997542;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $screen-xs-max) {
+    #hotel_wets_23 {
+        margin-top: 40px;
+        .col-lg-6 {
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+        .container:nth-child(1) {
+            // padding-left: 12px;
+            // padding-right: 12px;
+            span {
+                padding: 0 8px;
+            }
+            .lead {
+                margin: 15px 0 20px 0;
+            }
+        }
+        .container-fluid {
+            .col-lg-6 {
+                padding-left: 0;
+                padding-right: 0;
+                .detail {
+                    margin-right: 0;
+                    padding: 20px 13px;
+                    h4 {
+                        text-align: left;
+                        font-size: 20px;
+                    }
+                    .logo {
+                        img {
+                            height: 32px;
+                            margin-top: -6px;
+                        }
+                    }
+                    p {
+                        margin: 12px 0;
+                    }
+                    .location {
+                        margin-top: 0;
+                    }
+                    .more {
+                        text-align: left;
+                        position: relative;
+                    }
+                }
+            }
+            .swiper-pagination-bullets {
+                bottom: 10px;
+            }
+        }
+    }
+}

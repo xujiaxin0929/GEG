@@ -1,0 +1,71 @@
+
+#res_advantages_34 {
+    margin-top:80px;
+    @media(max-width:$screen-xs-max){
+        margin-top:8px;
+    }
+    @extend #hotel_allhotels_22;
+    @media (max-width: $screen-xs-max) {
+        // padding-left: 12px;
+        // padding-right: 12px;
+    }
+    color:white;
+    h3{
+        background-image: url(../images/dot2.png);
+        background-repeat: repeat-x;
+        background-position: center;
+        span{
+            color:white;
+            background: #343434;
+        }
+    }
+    .icons {
+        >div{
+           margin-bottom:25px;
+        }
+        .img-wrapper {
+            width: 200px;
+            // height: 200px;
+            margin: 0 auto;
+            @media(max-width:$screen-xs-max){
+                width:77px;
+                height:77px;
+            }
+            .imgs {
+                margin:0 auto;
+                height: 100px;
+                width: 100px;
+                overflow: hidden;
+                background-color: white;
+                border-radius: 100px;
+                position: relative;
+                .items{
+                    position: absolute;
+                    -webkit-transform: translate(50%,10%);
+                    -moz-transform: translate(50%,10%);
+                   transform: translate(50%,10%);
+                }
+                .item1{
+                    position: absolute;
+                    top:12px;
+                    right:12px;
+                }
+                .item3{
+                    position: absolute;
+                    top:24px;
+                    right:0px;
+                }
+            }                   
+        }
+        p{
+            width:100%;
+            text-align: center;
+            margin-top:20px;
+            font-size: 16px;
+            @media(max-width:$screen-xs-max){
+                font-size:12px;
+            }
+        }
+    }
+    margin-bottom: 50px;
+}

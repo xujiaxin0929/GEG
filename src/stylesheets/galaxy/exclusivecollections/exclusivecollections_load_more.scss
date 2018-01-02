@@ -1,0 +1,106 @@
+#exclusivecollections_load_more {
+    @media(max-width: $screen-xs-max) {
+        margin-top: 41px;
+    }
+    .exc_load_more {
+        .items {
+            margin: 0 1%;
+            width: 23.5%;
+            float: left;
+            display: none;
+            margin-bottom: 35px;
+            &.ok {
+                display: block;
+            }
+            @media screen and (max-width: $screen-sm-max) {
+                width: 100%;
+                margin: 0;
+            }
+            // margin-bottom:60px;
+            &:nth-child(4n+1) {
+                margin-left: 0;
+            }
+			&:nth-child(5){
+				clear: both;
+			}
+			&:nth-child(13){
+				clear: both;
+			}
+            &:nth-child(4n) {
+                margin-right: 0;
+            }
+            .details_exclusive {
+                min-height: 136px;
+                position: relative;
+                @media screen and (max-width: $screen-sm-max) {
+                    min-height:auto;
+                    padding: 20px;
+                    float: left;
+                    width: 100%;
+                    min-height: 0px;
+                }
+            }
+            h4 {
+                margin-top: 17px;
+                width: 100%;
+                float: left;
+            }
+            p {
+                margin-top: 8px;
+                font-weight: 300;
+                width: 100%;
+                float: left;
+                margin-bottom: 10px;
+                &.icon_date {
+                    background: url(../images/calender_icon.png) no-repeat 0 5px;
+                    padding-left: 27px;
+                    margin-top: 0px;
+                }
+            }
+            .icon_date1 {
+                margin-top: 14px;
+                float: left;
+                width: 100%;
+                position: absolute;
+                @media screen and (max-width: $screen-sm-max) {
+                    position:static;
+                    margin-bottom: 25px;
+                }
+                bottom: 0;
+                left: 0;
+            }
+            .icon_date1 {
+                bottom: -15px !important;
+            }
+
+            .hover_a{
+                display: inline-block;
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+            }
+            img {
+                width: 100%;
+                float: left;
+                transition: .3s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .last_items{
+            clear: both;
+        }
+    }
+    .exc_load_more_btn {
+        margin: 0px 0 20px 0;
+        display: inline-block;
+        font-size: 18px;
+        color: #9d7049;
+        font-weight: 600;
+        text-decoration: underline;
+        @media screen and (max-width: $screen-sm-max) {
+            margin:0px 0 10px 0;
+        }
+    }
+}

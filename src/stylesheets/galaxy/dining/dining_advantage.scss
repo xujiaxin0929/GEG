@@ -1,0 +1,41 @@
+#dining_advantage {
+    margin-top: 40px;
+    @media (max-width: 1000px){
+    margin-top: 30px;
+  }
+    .row {
+        div {
+            margin-top: 32px;
+            text-align: center;
+            p{
+                display: inline-block;
+                font-size: 16px;
+                color: #343434;
+            }
+            img{
+                height: 57px;
+            }
+            .din_ad_change{
+                margin-top: 0px;
+            }
+            @media (max-width: $screen-xs-max) {
+                img {
+                    height: 45px;
+                }
+                p {
+                    padding: 0 22px;
+                    color: #333;
+                    font-size: 15px;
+                    text-align: center;
+                    display: block;
+
+                }
+                p:nth-child(2){
+                    padding: 0;
+                    margin: 0 auto;
+                }
+            }
+            
+        }
+    }
+}

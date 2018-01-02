@@ -1,0 +1,71 @@
+#macallanduo_taste{
+  margin-bottom: 50px;
+  @media (max-width:767px) {
+    margin-bottom: 25px;
+  }
+  @extend #hotel_rooms;
+  .row{margin-bottom: 0;position:relative;}
+  .container-fiuld{
+    .row {
+      margin-bottom: 30px;
+      &:nth-child(even) {
+        .right-feild{
+          right: auto;
+          left:0;
+          .detail{
+            padding: 0 49px 0 70px;
+            @media (max-width:1000px) {
+              padding: 20px 13px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  .left-feild{
+    @media (max-width:1000px) {
+      margin: 0 13px;
+      width:auto;
+    }
+    .left-feild-img{
+      width:100%;
+    }
+  }
+  .right-feild{
+    position: absolute;
+    height:100%;
+    right:0;
+    @media (max-width:1000px) {
+      position:static;
+      width:100%;
+    }
+    .detail{
+      padding: 0 70px 0 49px;
+      display: table;
+      height: 100%;
+      @media (max-width:1000px) {
+        padding: 20px 12px 0;
+      }
+      .inner{
+        display:table-cell;
+        vertical-align: middle;
+        p{
+          font-size: 14px;
+          line-height: 30px;
+          color: #343434;
+          @media (max-width:1000px) {
+            font-size: 15px;
+            line-height: 25px;
+          }
+        }
+      }
+      .h3-title{
+        font-weight: 600;
+        width: 100%;
+        @media (max-width:1000px) {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

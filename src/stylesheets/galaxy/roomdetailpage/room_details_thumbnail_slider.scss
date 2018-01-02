@@ -1,0 +1,87 @@
+#room_details_thumbnail_slider {
+    @media (max-width:991px){
+        margin-top: 50px;
+    }
+    .thumslider {
+        position: relative;
+    }
+    width:100%;
+    float:left;
+    // margin-bottom:30px;
+    .shop_details_thumbnail_slider{
+        margin-bottom: 0;
+    }
+    &.slides,
+    .img {
+        width: 100%;
+        float: left;
+    }
+    .thum-control-thumbs {
+        background: rgba(0, 0, 0, 0.4);
+        padding: 10px 0 5px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        float: left;
+        text-align: center;
+        bottom:126px;
+        @media (max-width:991px){
+            bottom:0;
+        }
+        li {
+            display: inline-block;
+            margin: 0 5px;
+            overflow:hidden;
+            width: 11%;
+            @media screen and (max-width: $screen-sm-max) {
+                width: 16%;
+            }
+            &:first-child{
+                img{
+                    @media screen and (max-width: $screen-sm-max) {
+                        height: 50px;
+                        width:auto;
+                        max-width: 120%;
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+            img {
+                border: 1px solid rgba(0, 0, 0, 0);
+                width: 100%;
+                float: left;
+                cursor: pointer;
+                &.thum-active {
+                    border: 1px solid #997542;
+                }
+                @media screen and (max-width: $screen-xs-max) {
+                    height: 62px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .slides,
+    .slides > li,
+    {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        list-style: none;
+    }
+    .slide-bg {
+        position: relative;
+        width: 100%;
+    }
+    .thum-direction-nav {
+        display: none;
+    }
+}
+.room-content{
+    #bookingbar{
+        @media (max-width:991px) {
+            margin-top: 0;
+        }
+    }
+}

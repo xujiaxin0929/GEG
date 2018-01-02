@@ -1,0 +1,60 @@
+#newsDetailPage_message {
+    @media(max-width: $screen-sm-max) {
+        margin-top: 42px;
+        padding: 0 20px;
+    }
+    margin-top: 30px;
+    .container {
+        .row {
+            div {
+                .newsDetail_img_box {
+                    a{
+                        &:hover{
+                            text-decoration: none;
+                        }
+                    }
+                    .wechat-first-img {
+                        margin-right: 30px;
+                    }
+                    .icon-double{
+                        font-size: 25px;
+                        color: #000;
+                        
+                    }
+                    @media(max-width: $screen-sm-max) {
+                        display: none;
+                    }
+                }
+                h4 {
+                    font-size: 22px;
+                    color: #343434;
+                    margin-top: 26px;
+                    margin-bottom: 18px;
+                    @media(max-width: $screen-sm-max) {
+                        margin-top: 0px;
+                        margin-bottom: 13px;
+                        font-size: 20px;
+                    }
+                }
+                span {
+                    font-size: 14px;
+                    line-height: 22px;
+                    @media(max-width: $screen-sm-max) {
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+                h2 {
+                    display: none;
+                    @media(max-width: $screen-sm-max) {
+                        display: block;
+                        font-size: 20px;
+                        color: #343434;
+                        margin-top: 32px;
+                        margin-bottom: 0px;
+                    }
+                }
+            }
+        }
+    }
+}

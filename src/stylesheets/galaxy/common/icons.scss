@@ -1,0 +1,120 @@
+//icon font
+.galaxyicon-front{
+	&:before{
+		font-size: 16px;
+		padding-right: 6px;
+		vertical-align:middle;
+	}
+}
+.galaxyicon-isolate{
+	&:before{
+		font-size: 34px;
+		padding-right: 16px;
+		vertical-align:text-top;
+	}
+}
+.icon-arrow-down{
+	font-size: 30px;
+	padding:18px 14px 5px 14px;
+	border-radius: 50%;
+	border-width: 1px;
+	border-style: solid;
+	@media screen and (max-width: $screen-xs-max) {
+		font-size: 24px;
+		padding: 18*0.8px 14*0.8px 5*0.8px 14*0.8px;
+		//border:none;
+		// background-color: rgba(0,0,0,0.6)
+	}
+	&:hover{
+		//background-color: rgba(0,0,0,0.8);
+	}
+}
+.icon-arrow-left{
+	display:block;
+	font-size: 30px;
+	// padding:14px 16px 9px 14px;
+	border-radius: 30px;
+	border-width: 1px;
+	border-style: solid;
+	width:60px;
+	height:60px;
+	line-height: 68px;
+	@media screen and (max-width: $screen-xs-max) {
+		color: white;
+		font-size: 24px;
+		// padding: 14*0.8px 16*0.8px 9*0.8px 14*0.8px;
+		width:50px;
+		height:50px;
+		line-height: 56px;
+		border:none;
+		background-color: rgba(0,0,0,0.6);
+		opacity:1 !important;
+	}
+
+	&:hover{
+		//background-color: rgba(0,0,0,0.2);
+	}
+}
+
+.icon-info-right{
+	border-radius: 30px;
+	border-width: 1px;
+	border-style: solid;
+	font-size: 8px;
+	margin-left: 8px;
+	margin-top: -2px;
+	padding: 3px 2px 1px 4px;
+
+}
+.icon-arrow-right{
+	display:block;
+	font-size: 30px;
+	// padding:14px 14px 9px 16px;
+	border-radius: 30px;
+	border-width: 1px;
+	border-style: solid;
+	width:60px;
+	height:60px;
+	text-indent: 3px;
+	line-height: 68px;
+
+	@media screen and (max-width: $screen-xs-max) {
+		color: white;
+		font-size: 24px;
+		width:50px;
+		height:50px;
+		text-indent: 2px;
+		line-height: 56px;
+		// padding: 14*0.8px 14*0.8px 9*0.8px 16*0.8px;
+		border:none;
+		background-color: rgba(0,0,0,0.6);
+		opacity:1 !important;
+	}
+}
+.iconi-arrow-right{
+	vertical-align: middle;
+	margin:-2px 0 0 5px;
+	display:inline-block;
+}
+.iconi-zoom:before {
+    content: "\e906";
+}
+.iconi-close:before {
+    content: "\e923";
+}
+.iconi-people:before{
+	  content:"\e917";
+}
+.prompt-icon{
+	  display:inline-block;
+	  width: 23px;
+	  height: 23px;
+	  background:url(../images/prompt-icon.png) no-repeat;
+	  vertical-align: middle;
+	  margin: -3px 10px 0 0;
+	  @media (max-width:$screen-xs-max) {
+      width: 13px;
+		  height: 13px;
+		  background-size: 100% 100%;
+    }
+}

@@ -1,0 +1,92 @@
+#wedding_love {
+    @media (max-width:991px) {
+        margin-top: 40px;
+    }
+    .swiper-container{
+      &:before{
+        content:"";
+        position:absolute;
+        width: 16%;
+        width: calc(16.4% - 30px);
+        width: -webkit-calc(16.4% - 30px);
+        width: -moz-calc(16.4% - 30px);
+        height:100%;
+        background-color: rgba(255, 255, 255, .7);
+        left:0;
+        top:0;
+        z-index: 5;
+        @media (max-width:767px) {
+           width: calc(9.4% - 3px);
+           width: -webkit-calc(9.4% - 3px);
+           width: -moz-calc(9.4% - 3px); 
+        }
+      }
+      &:after{
+        content:"";
+        position:absolute;
+        width: 16%;
+        width: calc(16.4% - 30px);
+        width: -webkit-calc(16.4% - 30px);
+        width: -moz-calc(16.4% - 30px);
+        height:100%;
+        background-color: rgba(255, 255, 255, .7);
+        right:0;
+        top:0;
+        z-index: 5;
+        @media (max-width:767px) {
+           width: calc(9.4% - 5px);
+           width: -webkit-calc(9.4% - 5px);
+           width: -moz-calc(9.4% - 5px); 
+        }
+      }
+    }
+    .swiper-wrapper{
+      transition-timing-function:ease-out;
+    }
+    .swiper-slide {
+        width: 67.2%;
+        @media (max-width:767px) {
+            width: 81.2%;
+        }
+        img {
+            width: 100%;
+        }
+        a {
+            transition: 0.2s;
+        }
+    }
+    .left {
+        left: 9.5%;
+        top: 50%;
+        margin-top: -30px;
+        span {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            border: none;
+        }
+        @media (max-width:1200px) {
+            left: 7.5%;
+        }
+        @media (max-width:991px) {
+            display: block !important;
+            left: 8.5%;
+        }
+    }
+    .right {
+        right: 9.5%;
+        top:50%;
+        margin-top: -30px;
+        span {
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            border: none;
+        }
+        @media (max-width:1200px) {
+            right: 7.5%;
+        }
+        @media (max-width:991px) {
+            display: block !important;
+            right: 8.5%;
+        }
+    }
+}

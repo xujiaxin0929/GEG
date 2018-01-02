@@ -1,0 +1,76 @@
+#res_specialoffers_37 {
+    @media(max-width: $screen-xs-max) {
+        margin-top: 30px;
+    }
+    @extend #hp_occasions_11;
+    .swiper-wrapper {
+    }
+    h3 {
+        background-image: url(../images/dot2.png);
+        background-repeat: repeat-x;
+        background-position: center;
+        span {
+            color: white;
+            background: #343434;
+        }
+    }
+    .lead{
+        color:#fff;
+    }
+    .swiper-slide {
+        .caption {
+            color: white;
+            h4 {
+                color: white;
+                a{
+                    color: white;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+            >p {
+                font-size: 14px;
+                line-height: 22px;
+                height: 44px;
+                overflow: hidden;
+                color: #fff;
+            }
+        }
+    }
+    .control{
+    	color:#fff;
+        display: none;
+    	&.swiper-button-disabled{
+    		&:hover{
+    			span{
+    				border-color: #fff;
+    			}
+    		}
+    	}
+        @media (max-width: $screen-sm-max) {
+            display: block;
+        }
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+    #res_specialoffers_37 {
+        margin-top: 40px;
+        padding-left: 0;
+        padding-right: 0;
+        h3 {
+            margin: 0 12px;
+            span {
+                padding: 0 30px;
+                @media (max-width: $screen-xs-min) {
+                    padding: 0 8px;
+                }
+            }
+        }
+        .lead {
+            color: white;
+            margin: 15px 0;
+        }
+    }
+}

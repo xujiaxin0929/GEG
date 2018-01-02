@@ -1,0 +1,10 @@
+#rizcalton_courtesy{
+  @extend #hp_occasions_11;
+  h3{
+    margin-bottom: 30px;
+    @media (max-width:991px) {
+      margin-bottom: 15px;
+    }
+  }
+
+}

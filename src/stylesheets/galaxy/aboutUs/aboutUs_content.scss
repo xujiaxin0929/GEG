@@ -1,0 +1,48 @@
+#aboutUs_content{
+    margin-top: 78px;
+    margin-bottom: 67px;
+    @media(max-width: $screen-xs-max){
+        margin-top: 49px;
+        padding: 0 10px;
+        margin-bottom: 40px;
+    }
+    .container{
+        .row{
+            div{
+                h2{
+                    font-size: 24px;
+                    color: #343434;
+                    margin: 0px;
+                    margin-bottom: 22px;
+                    @media(max-width: $screen-xs-max){
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                    }
+                }
+                span{
+                    display: block;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #343434;
+                    text-indent:40px;
+                    @media(max-width: $screen-xs-max){
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                }
+                span:nth-child(2){
+                        margin-bottom: 11px;
+                         @media(max-width: $screen-xs-max){
+                             margin-bottom: 8px;
+                         }
+                    }
+            }
+        }
+        .row:nth-child(2){
+            margin-top: 48px;
+             @media(max-width: $screen-xs-max){
+                 margin-top: 60px;
+             }
+        }
+    }
+}

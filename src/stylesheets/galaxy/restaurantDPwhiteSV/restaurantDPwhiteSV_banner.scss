@@ -1,0 +1,7 @@
+#restaurantDPwhiteSV_banner{
+  @extend #hotel_testimonials;
+  margin: 80px auto 62px;
+  @media (max-width: $screen-sm-min) { 
+    margin: 38px 20px 31px 20px;
+  }
+}

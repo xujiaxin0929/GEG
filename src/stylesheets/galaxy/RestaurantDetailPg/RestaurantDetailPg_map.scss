@@ -1,0 +1,108 @@
+#RestaurantDetailPg_map {
+    margin-top: 60px;
+    @media screen and (max-width: $screen-sm-max) {
+        margin-top:20px;
+    }
+    .container-fluid {
+        div {
+            // background: #cbcaca;
+            position: relative;
+            .res_map_img {
+                display: block;
+                width: 100%;
+                float: left;
+            }
+            .res_map_ico {
+                position: absolute;
+                left: 338px;
+                top: 197px;
+            }
+            .res_map_sj {
+                width: 0;
+                height: 0;
+                border: 30px solid;
+                border-color: transparent #fff transparent transparent;
+                position: absolute;
+                top: 154px;
+                left: 337px;
+            }
+            .res_map_box {
+                width: 348px;
+                height: 140px;
+                position: absolute;
+                top: 118px;
+                left: 396px;
+                background-color: #fff;
+                padding: 24px 28px 20px 17px;
+                h2 {
+                    font-size: 28px;
+                    color: #343434;
+                    margin: 0px;
+                    font-weight: normal;
+                    &:after {
+                        content: '';
+                        height: 1px;
+                        width: 100%;
+                        background: #bbbbbb;
+                        display: block;
+                        margin-top: 16px;
+                        margin-bottom: 22px;
+                    }
+                }
+                span {
+                    font-size: 20px;
+                    color: #343434;
+                }
+                .position-ico {
+                    color: #f3be4b;
+                }
+            }
+            @media (max-width: $screen-xs-max) {
+                .res_map_ico {
+                    left: 94px;
+                    top: 52px;
+                }
+                .res_map_sj {
+                    width: 0;
+                    height: 0;
+                    border: 15px solid;
+                    border-color: transparent #fff transparent transparent;
+                    position: absolute;
+                    top: 44px;
+                    left: 110px;
+                }
+                .res_map_box {
+                    width: 200px;
+                    height: 80px;
+                    position: absolute;
+                    top: 22px;
+                    left: 140px;
+                    background-color: #fff;
+                    padding: 14px 0px 10px 10px;
+                    h2 {
+                        font-size: 16px;
+                        color: #343434;
+                        margin: 0px;
+                        font-weight: normal;
+                        &:after {
+                            content: '';
+                            height: 1px;
+                            width: 100%;
+                            background: #bbbbbb;
+                            display: block;
+                            margin-top: 8px;
+                            margin-bottom: 11px;
+                        }
+                    }
+                    span {
+                        font-size: 12px;
+                        color: #343434;
+                    }
+                    .position-ico {
+                        color: #f3be4b;
+                    }
+                }
+            }
+        }
+    }
+}

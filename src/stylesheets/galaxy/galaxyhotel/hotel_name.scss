@@ -1,0 +1,82 @@
+/* #hotel_name{
+	@extend #restaurant_chefs_33;
+
+	background-color: transparent;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	.detail{
+		background-color: #f9f5ea!important;
+	}
+	h4{
+		margin-bottom: 27px;
+	}
+}
+ */
+
+#hotel_name{
+	@extend #hotel_allhotels_22;
+	.info{
+		margin-bottom: 58px;
+		@media (max-width: $screen-md-min) {
+			margin-bottom: 25px;
+			padding: 0;
+		}
+	}
+
+	.introduce-main{
+		.home-main{
+			padding-left: 6%;
+			height: 204px;
+			border-right: 1px solid #bbb;
+			@media (max-width: $screen-md-min) {
+				height: auto;
+				padding-left: 0;
+				border-right: none;
+				margin-bottom: 22px;
+				.line{
+					display: block;
+					width: 54%;
+					height: 1px;
+					background-color: #000; 
+				}
+			}
+		}
+		.introduce-list{
+			margin: 0;
+			margin-top: 10px;
+			line-height: 36px;
+			font-size: 16px;
+			color:#343434;
+			list-style: none;
+			padding-left: 0;
+			li{
+				position:relative;
+				padding-left: 16px;
+				&:before{
+					content:"";
+					position: absolute;
+					width:7px;
+					height:7px;
+					background-color: #7b7b7b;
+					border-radius: 50%;
+					top:16px;
+					left:0;
+				}
+			}
+			@media (max-width: $screen-md-min) {
+				margin-bottom: 24px;
+			}
+		}
+		.hotel-main{
+			padding-left: 12%;
+			height: 204px;
+			@media (max-width: $screen-md-min) {
+				height: auto;
+				padding-left: 0;
+				border-right: none;
+			}
+		}
+	}
+}
+

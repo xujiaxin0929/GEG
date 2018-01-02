@@ -1,0 +1,28 @@
+#res_menudownload_36{
+	margin-top:56px;
+	@media(max-width:$screen-xs-max){
+        margin-top:0px;
+    }
+    .menu{
+		h4{
+			color:white;
+			// margin-top: 44px;
+			margin-bottom: 24px;
+			text-align: center;
+		}
+	}
+	color:white;
+	.img-wrapper{
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	.col-xs-6{
+		a{
+			color:#fff;
+			&:hover{
+				color:#927c5c;
+			  text-decoration: none;
+			}
+		}
+	}
+}

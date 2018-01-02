@@ -1,0 +1,230 @@
+#dining_week {
+    margin-top: 80px;
+    @media (max-width: $screen-sm-max) {
+        margin-top: 74px;
+    }
+    @media (max-width:$screen-xs-max) {
+        margin-top: 37px;
+    }
+    .container {
+        .row_week {
+            .first_box_left {
+                padding-right: 15px;
+                @media(max-width: $screen-sm-max) {
+                    padding-right: 0px;
+                }
+                .row {
+                    background-color: #f4f4f4;
+                    -webkit-align-items: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    display: -webkit-flex;
+                    display: flex;
+                    @media(max-width: $screen-xs-max) {
+                        display: block;
+                    }
+                    .week {
+                        img {
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                    .week_right {
+                        padding-left: 30px;
+                        padding-right: 30px;
+                        @media(max-width: $screen-sm-max) {
+                            padding-top: 41px;
+                            padding-left: 26px;
+                            padding-right: 20px;
+                            padding-bottom: 25px;
+                        }
+                        
+                        h4 {
+                            font-size: 22px;
+                            color: #343434;
+                            @media(max-width: $screen-sm-max) {
+                                font-size: 20px;
+                            }
+                        }
+                        p {
+                            font-size: 14px;
+                            color: #000;
+                            line-height: 24px;
+                            margin-top: 14px;
+                            margin-bottom: 17px;
+                            @media(max-width: $screen-sm-max) {
+                                font-size: 15px;
+                                line-height: 25px;
+                                margin-top: 14px;
+                                margin-bottom: 22px;
+                            }
+                        }
+                        .week_flexed_w {
+                            font-size: 14px;
+                            line-height: 24px; // width: 106px;
+                            // a {
+                            //     float: left;
+                            // }
+                            // span {
+                            //     float: right;
+                            // }
+                            @media(max-width: $screen-sm-max) {
+                                font-size: 15px;
+                                line-height: 25px;
+                            }
+                            a {
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                                p {
+                                    display: inline-block;
+                                    margin: 0px;
+                                    color: #997542;
+                                    &:hover{
+                                        text-decoration: underline;
+                                    }
+                                }
+                            }
+                        }
+                        @media screen and (min-width: 900px) and (max-width: 1000px) {
+                            p {
+                                margin-top: 0px;
+                                margin-bottom: 0px;
+                                line-height: 20px;
+                            }
+                        }
+
+                       
+                        
+                    }
+                }
+            }
+            .first_box_right {
+                padding-left: 8px;
+                @media(max-width: $screen-sm-max) {
+                    padding-left: 0px;
+                }
+                .row {
+                    .share_youtube {
+                        position: relative;
+                        .video_bgc {
+                            width: 100%;
+                        }
+                        .video_maskLayer {
+                            width: 100%;
+                            height: 100%; // background-color: #997644;
+                            background-color: rgba(153, 118, 68, .8); // opacity: 0.8;
+                            position: absolute;
+                            top: 0px;
+                            left: 0px;
+                            padding: 20px 28px;
+                            .video_maskbox {
+                                width: 100%;
+                                height: 100%;
+                                border: 5px solid white;
+                                padding-top: 58px;
+                                padding-left: 28px;
+                                padding-right: 24px;
+                                @media(max-width: 1240px) {
+                                    padding-top: 14px;
+                                }
+                                @media(max-width: $screen-sm-max) {
+                                    padding-top: 63px;
+                                    padding-left: 30px;
+                                    padding-right: 16px;
+                                    padding-bottom: 41px;
+                                }
+                                .week_start_square {
+                                    cursor: pointer;
+                                }
+                                .video_mask_textbox {
+                                    padding-left: 74px;
+                                    margin-top: -50px;
+                                    h4 {
+                                        color: white;
+                                        font-size: 22px;
+                                        @media(max-width: $screen-sm-max) {
+                                            font-size: 20px;
+                                        }
+                                    }
+                                    p {
+                                        font-size: 14px;
+                                        line-height: 23px;
+                                        color: white;
+                                        margin-bottom: 17px;
+                                        @media(max-width: $screen-sm-max) {
+                                            font-size: 15px;
+                                            line-height: 23px;
+                                            margin-bottom: 15px;
+                                        }
+                                    }
+                                    a {
+                                        color: white;
+                                        font-size: 14px;
+                                        @media(max-width: $screen-sm-max) {
+                                            font-size: 15px;
+                                        }
+                                    }
+                                }
+                                @media screen and (min-width: 990px) and (max-width: 1000px) {
+                                    padding: 0px;
+                                    .video_mask_textbox {
+                                        padding-left: 55px;
+                                        h4 {
+                                            font-size: 16px;
+                                        }
+                                        p {
+                                            margin: 10px 0;
+                                            font-size: 14px;
+                                            line-height: 14px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .video_show {
+        position: fixed;
+        left: 50%;
+        margin-left: -220px;
+        margin-top: -250px;
+        top: 50%;
+        z-index: 9999;
+        display: none;
+        @media(max-width: 767px) {
+            width: 100%;
+            margin-left: 0px;
+            left: 0px;
+        }
+        .video_btn {
+            height: 40px;
+            font-size: 26px;
+            color: #997644;
+            opacity: 0.8;
+            text-align: right;
+            cursor: pointer;
+            z-index: 9999;
+        }
+    }
+    .video_hide {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        display: none;
+        background-color: #000;
+        opacity: 0.8;
+        z-index: 9998;
+    }
+    .video_show_content {
+        width: 490px;
+        height: 368px;
+        @media(max-width: 767px) {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

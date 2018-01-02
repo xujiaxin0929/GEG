@@ -1,0 +1,84 @@
+            #GettingHereFSBuses_route {
+                margin-top: 25px;
+                display: none;
+                @media (max-width: $screen-xs-max) {
+                    display: block;
+                }
+                .get_group {
+                    // height: 220px;
+                    background: #fff;
+                    padding: 0px 12px 0px 12px;
+                    h4 {
+                        font-size: 20px;
+                        color: #000;
+                        span {
+                            margin-left: 18px;
+                        }
+                    }
+                    .get_h_bottom {
+                        width: 100%;
+                        height: 1px;
+                        background: #dddddd;
+                        margin-top: 14px;
+                        margin-bottom: 14px;
+                    }
+                    .get_left {
+                        form {
+                            p {
+                                position: relative;
+                                margin-top: 13px;
+                                &:nth-child(2) {
+                                    margin-top: 7px;
+                                }
+                                span {
+                                    position: absolute;
+                                    top: 9px;
+                                    left: 9px;
+                                    color: #bbb;
+                                }
+                                input {
+                                    width: 100%;
+                                    height: 32px;
+                                    background: #efefef;
+                                    border: none;
+                                    outline: none;
+                                    padding-left: 33px;
+                                }
+                            }
+                        }
+                        p {
+                            margin-top: 24px;
+                            img {
+                                width: 14px;
+                                margin-right: 12px;
+                                margin-top: -4px;
+                            }
+                            span {
+                                font-size: 15px;
+                                color: #828181;
+                                margin-right: 19px;
+                            }
+                        }
+                    }
+                    .get_right {
+                        text-align: center;
+                        span {
+                            font-size: 19px;
+                            margin-top: 60px;
+                            margin-right: 5px;
+                            color: #bbb;
+                            transform: rotate(90deg);
+                            -ms-transform: rotate(90deg);
+                            /* IE 9 */
+                            -moz-transform: rotate(90deg);
+                            /* Firefox */
+                            -webkit-transform: rotate(90deg);
+                            /* Safari 和 Chrome */
+                            -o-transform: rotate(90deg);
+                            /* Opera */
+                        }
+                    }
+                }
+            }
+
+            

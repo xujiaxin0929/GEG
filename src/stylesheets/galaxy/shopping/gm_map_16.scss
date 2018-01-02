@@ -1,0 +1,42 @@
+#gm_map_16 {
+    margin-top: 32px;
+    @media(max-width: $screen-sm-max) {}
+    .container-fluid {
+        .row {
+            position: relative;
+            .wrap {
+                img {
+                    width: 100%;
+                }
+            }
+            .shopping_check_hide {
+                display: none;
+            }
+            .tab_check_box {
+                width: 210px;
+                height: 38px; // background: 
+                border: 1px solid #99763f;
+                color: #99763f;
+                font-size: 18px;
+                line-height: 37px;
+                background: #fff;
+                text-align: center;
+                position: absolute;
+                bottom: 35px;
+                right: 0px;
+                cursor: pointer;
+                .active {
+                    color: #fff;
+                    background: #99763f;
+                }
+                @media(max-width:$screen-sm-max) {
+                    width: 127px;
+                    height: 28px;
+                    line-height: 27px;
+                    font-size: 13px;
+                    bottom: 10px;
+                }
+            }
+        }
+    }
+}

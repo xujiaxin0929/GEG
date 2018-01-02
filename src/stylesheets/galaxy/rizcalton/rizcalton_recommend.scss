@@ -1,0 +1,24 @@
+#rizcalton_recommend{
+  @extend #entertainment_perform;
+  .innner-desc{
+    margin-bottom: 30px;
+    @media (max-width:991px) {
+      margin-bottom: 20px;
+    }
+  }
+  .caption{
+    p{
+      height:44px;
+    }
+  }
+  .position-ico{
+    &.glyphicon-time{
+      &:before{
+        width: 14px !important;
+        height:14px !important;
+        margin-left: 2px;
+        background-size: 100% 100% !important;
+      }
+    }
+  }
+}

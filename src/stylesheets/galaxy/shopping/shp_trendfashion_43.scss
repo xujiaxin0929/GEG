@@ -1,0 +1,78 @@
+#shp_trendfashion_43 {
+      @media(max-width: $screen-sm-max){
+          margin-top: 39px;
+      }
+    h3 {
+        @media(max-width: $screen-md-min) {
+            margin:0px;
+        }
+        @media(max-width:$screen-md-min) {
+            margin: 0 20px;
+        }
+    }
+    .container {
+        @media(max-width: $screen-sm-max) {
+            width:auto;
+        }
+        .row:nth-child(2) {
+            position:relative;
+            margin-top: 32px; //display: table;
+            div:nth-child(1) {
+                img {
+                    width: 100%;
+                }
+            }
+            .col-lg-4 {
+                @media(max-width: $screen-sm-max) {
+                    padding:20px;
+                }
+                @media(min-width:$screen-md-min) {
+                    position:absolute;
+                    right:0;
+                    height:100%;
+                    padding:30px;
+                    .detail{
+                        display:table;
+                        height:100%;
+                        .inner{
+                            display:table-cell;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            h5{
+                a{
+                    color:#343434;
+                    &:hover{text-decoration: none;color:#343434;}
+                    &:focus{text-decoration: none;color:#343434;}
+                }
+            }
+            a {
+                position: relative;
+            }
+            .more {
+                width: 14px;
+                height: 14px;
+                border: 1px solid #9c7b46;
+                display: inline-block;
+                line-height: 14px;
+                text-align: right;
+                border-radius: 50%;
+                margin-left: 10px;
+                position: absolute;
+                top: 3px;
+            }
+            .more:before {
+                content: '\0049';
+                display: inline-block;
+                font-size: 7px;
+                font-family: 'galaxy icon';
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+            }
+        }
+    }
+}

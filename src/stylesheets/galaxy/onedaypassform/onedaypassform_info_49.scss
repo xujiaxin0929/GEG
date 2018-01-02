@@ -1,0 +1,223 @@
+#onedaypassform_info_49 {
+    @extend #grd_info_49;
+    .form-modal-close {
+        font-size: 40px;
+        color: #997543;
+        line-height: 1;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+        cursor: pointer;
+        @media (max-width: 767px) {
+            margin-right: -5px;
+        }
+    }
+    .form-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 999;
+        display: none;
+        .form-group {
+            font-size: 16px;
+            color: #bbb;
+            border: 1px solid #bbb;
+            height: 38px;
+            line-height: 36px;
+            margin-bottom: 35px;
+            position: relative;
+            @media (max-width: 767px) {
+                margin-bottom: 30px;
+                font-size: 15px;
+            }
+            label {
+                font-weight: normal;
+                float: left;
+            }
+            input {
+                -webkit-appearance: none;
+                background-color: transparent;
+                border: none;
+                width: 280px;
+                padding-left: 11px;
+                outline: none;
+                height: 38px;
+                line-height: 38px;
+                @media (max-width: 767px) {
+                    width:60%;
+                    padding-left: 3px;
+                }
+                @media (max-width:370px) {
+                    width: 52%;
+                    padding-left: 3px;
+                }
+            }
+            &.active {
+                border-color: #997543;
+                color: #997543;
+                .user-iconf {
+                    background: url(../images/user-icon-change.png) no-repeat !important;
+                }
+                .phone-iconf {
+                    background: url(../images/phone-icon-change.png) no-repeat !important;
+                }
+                .email-iconf {
+                    background: url(../images/email-icon-change.png) no-repeat !important;
+                }
+                input {
+                    &::-webkit-input-placeholder {
+                        color: #997543;
+                    }
+                    &::-moz-placeholder {
+                        color: #997543;
+                    }
+                    &:-ms-input-placeholder {
+                        color: #997543;
+                    }
+                }
+            }
+        }
+        .form-modal-main {
+            position: absolute;
+            width: 582px;
+            height: 594px;
+            padding: 0 80px;
+            background: rgba(0, 0, 0, .9);
+            top: 50%;
+            left: 50%;
+            margin: -297px 0 0 -291px;
+            @media (max-width: 1386px) {
+                margin: -230px 0 0 -291px;
+                height: 550px;
+            }
+            @media (max-width:767px) {
+                width: 90%;
+                left: 5%;
+                height: auto;
+                margin: 0 auto;
+                padding: 0 20px;
+                transform: translate3d(0, -50%, 0);
+                padding-bottom: 6%;
+            }
+        }
+        .form-modal-title {
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+            letter-spacing: 6px;
+            @media (max-width: 1386px) {
+                padding: 40px 0;
+            }
+            @media (max-width:767px) {
+                font-size: 25px;
+                padding: 30px 0;
+            }
+        }
+        .btn-order-from {
+            display: block;
+            background-color: #f3be4b;
+            height: 38px;
+            line-height: 38px;
+            font-size: 20px;
+            color: #010101;
+            text-align: center;
+            cursor: pointer;
+            &:hover {
+                text-decoration: none;
+            }
+            &:focus {
+                text-decoration: none;
+            }
+        }
+        .date-form-group {
+            &:after {
+                content: "";
+                position: absolute;
+                top: 4px;
+                right: 15px;
+                width: 0;
+                height: 0;
+                margin-top: 10px !important;
+                border-top: 7px dashed;
+                border-top: 7px solid \9;
+                border-right: 5px solid transparent;
+                border-left: 5px solid transparent;
+            }
+        }
+        .user-iconf {
+            width: 17px;
+            height: 20px;
+            background: url(../images/user-icon.png) no-repeat;
+            float: left;
+            margin: 8px 11px 0 10px;
+        }
+        .date-iconf {
+            float: left;
+            margin: 0 11px 0 8px;
+            font-style: normal;
+            &:before {
+                content: '\e919';
+                display: inline-block;
+                top: 0;
+                left: 5px;
+                display: block;
+                font-family: 'icomoon';
+                font-size: 19px;
+            }
+        }
+        .phone-iconf {
+            width: 18px;
+            height: 18px;
+            background: url(../images/phone-icon.png) no-repeat;
+            float: left;
+            margin: 8px 11px 0 10px;
+        }
+        .email-iconf {
+            width: 18px;
+            height: 15px;
+            background: url(../images/email-icon.png) no-repeat;
+            float: left;
+            margin: 11px 11px 0 10px;
+        }
+        .num-iconf {
+            float: left;
+            margin: 0 11px 0 6px;
+            font-style: normal;
+            &:before {
+                content: '\e917';
+                display: inline-block;
+                top: 0;
+                left: 5px;
+                display: block;
+                font-family: 'icomoon';
+                font-size: 22px;
+            }
+        }
+        .error-info {
+            display: none;
+            font-size: 14px;
+            color: #e31b1b;
+            margin-top: 5px;
+            position: absolute;
+            transition:2s;
+            -moz-transition:2s;
+            /* Firefox 4 */
+            -webkit-transition:2s;
+            /* Safari and Chrome */
+            -o-transition:2s;
+            /* Opera */
+            &:before {
+                content: "";
+                display: inline-block;
+                width: 15px;
+                height: 14px;
+                background: url(../images/erroer.png);
+                vertical-align: middle;
+                margin: -2px 8px 0;
+            }
+        }
+    }
+}

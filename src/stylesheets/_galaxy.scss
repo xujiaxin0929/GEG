@@ -1,0 +1,319 @@
+
+// @import "galaxy/common/colors";
+@import "galaxy/common/icons";
+@import "galaxy/common/common";
+@import "galaxy/common/utilities";
+@import "galaxy/common/galaxy-icon";
+//common in html
+@import "galaxy/common/gm_main_menu";
+@import "galaxy/common/gm_footer_section";
+@import "galaxy/common/hp_bookingbar_10";
+
+//homepage.html
+@import "galaxy/homepage/hp_hero_slideshow_09";
+@import "galaxy/homepage/hp_occasions_11";
+@import "galaxy/homepage/hp_occcasionpackages_12";
+@import "galaxy/homepage/hp_highlights_13";
+
+//wheretostay
+@import "galaxy/wheretostay/hotel_allhotels_22";
+@import "galaxy/wheretostay/hotel_wets_23";
+
+//restaurantdetailpage
+@import "galaxy/restaurantdetailpage/res_info_33";
+@import "galaxy/restaurantdetailpage/res_chefrecommendation_35";
+@import "galaxy/restaurantdetailpage/res_chefs_38";
+@import "galaxy/restaurantdetailpage/res_advantages_34";
+@import "galaxy/restaurantdetailpage/res_menudownload_36";
+@import "galaxy/restaurantdetailpage/res_specialoffers_37";//3格
+@import "galaxy/restaurantdetailpage/gm_testimonials_14";
+@import "galaxy/restaurantdetailpage/res_advertising";
+
+//roomdetailpage
+@import "galaxy/roomdetailpage/room_details_thumbnail_slider";
+@import "galaxy/roomdetailpage/rmt_roomfeatures_amenities_31";
+@import "galaxy/roomdetailpage/rmt_roomchoice_32";
+
+// roomdetailpage360
+@import "galaxy/roomdetailpage360/room_pano";
+
+//galaxyhotel
+@import "galaxy/galaxyhotel/hotel_name";
+@import "galaxy/galaxyhotel/hotel_rooms";
+@import "galaxy/galaxyhotel/hotel_advantages";
+@import "galaxy/galaxyhotel/hotel_testimonials";
+@import "galaxy/galaxyhotel/hotel_more";
+@import "galaxy/galaxyhotel/hotel_discount";
+@import "galaxy/galaxyhotel/hotel_advertisement";
+
+//grandresortdeck
+@import "galaxy/grandresortdeck/grd_info_49";
+@import "galaxy/grandresortdeck/grd_highlights_50";
+@import "galaxy/grandresortdeck/grd_swimmingpool_51";
+@import "galaxy/grandresortdeck/grd_diningfacilities_53";
+
+//moviedetailpage
+@import "galaxy/moviedetailpage/movie-content";
+@import "galaxy/moviedetailpage/movie-time";
+@import "galaxy/moviedetailpage/more-movie";
+@import "galaxy/moviedetailpage/enjoyingtreatment";
+
+//dining
+@import "galaxy/dining/dining_info";
+@import "galaxy/dining/dining_res";
+@import "galaxy/dining/dining_options";
+@import "galaxy/dining/dining_special";
+@import "galaxy/dining/dining_monthchief";
+@import "galaxy/dining/dining_treatment";
+@import "galaxy/dining/dining_ads";
+@import "galaxy/dining/dining_week";
+@import "galaxy/dining/dining_advantage";
+
+//restaurantscatalog
+@import "galaxy/restaurantscatalog/res_content";
+@import "galaxy/restaurantscatalog/restaurantscatalog_advantages";
+@import "galaxy/restaurantscatalog/res_nav_content";
+
+// entertainment
+@import "galaxy/entertainment/entertainment_advantages_1";
+@import "galaxy/entertainment/entertainment_advertisement";
+@import "galaxy/entertainment/entertainment_recommend";
+@import "galaxy/entertainment/entertainment_silverStone";
+@import "galaxy/entertainment/entertainment_startConcert";
+@import "galaxy/entertainment/entertainment_perform";
+
+// whattodo
+@import "galaxy/whattodo/wtd_whatsnew_39";
+@import "galaxy/whattodo/wtd_food_entertainment_40";
+@import "galaxy/whattodo/wtd_testimonials_14";
+
+//shopping
+@import "galaxy/shopping/shp_newshops_41";
+@import "galaxy/shopping/shp_exclusiveoffers_42";
+@import "galaxy/shopping/shp_trendfashion_43";
+@import "galaxy/shopping/shp_shopcategories_44";
+@import "galaxy/shopping/shp_specialoffers_45";
+@import "galaxy/shopping/shp_testimonials_46";
+@import "galaxy/shopping/gm_map_16";
+@import "galaxy/shopping/shp_ouradvantages_47";
+
+//shopping details
+@import "galaxy/shopdetailpage/shop_details_thumbnail_slider";
+@import "galaxy/shopdetailpage/shop_details_address";
+@import "galaxy/shopdetailpage/shop_details_img";
+
+
+// spaMessage
+@import "galaxy/spamassage/common_introduce";
+@import "galaxy/spamassage/spamassage_banyanspa";
+@import "galaxy/spamassage/spamassage_ysb";
+@import "galaxy/spamassage/spamassage_foot";
+@import "galaxy/spamassage/spamassage_advertisement";
+
+//micepage
+@import "galaxy/micepage/micepage_field";
+@import "galaxy/micepage/micepage_enjoy";
+
+// wedding
+@import "galaxy/wedding/common_slide_01";
+@import "galaxy/wedding/wedding_love";
+@import "galaxy/wedding/wedding_more";
+@import "galaxy/wedding/wedding_experience";
+@import "galaxy/wedding/wedding_recommend";
+@import "galaxy/wedding/common_service_01";
+
+//discover
+@import "galaxy/discover/discover_articles";
+@import "galaxy/discover/discover_food";
+@import "galaxy/discover/discover_guide";
+@import "galaxy/discover/discover_interview";
+@import "galaxy/discover/discover_shrine";
+
+// macallanduo
+@import "galaxy/macallanduo/macallanduo_detail";
+@import "galaxy/macallanduo/macallanduo_taste";
+@import "galaxy/macallanduo/macallanduo_courtesy";
+@import "galaxy/macallanduo/macallanduo_recommend";
+
+// rizcalton
+@import "galaxy/rizcalton/rizcalton_detail";
+@import "galaxy/rizcalton/rizcalton_lounge";
+@import "galaxy/rizcalton/rizcalton_courtesy";
+@import "galaxy/rizcalton/rizcalton_recommend";
+
+// onedaypassform
+@import "galaxy/onedaypassform/onedaypassform_info_49";
+
+// chinarougeshow
+@import "galaxy/chinarougeshow/chinarougeshow_detail";
+@import "galaxy/chinarougeshow/chinarougeshow_lounge";
+@import "galaxy/chinarougeshow/chinarougeshow_courtesy";
+@import "galaxy/chinarougeshow/chinarougeshow_recommend";
+
+//catchapromotion
+@import "galaxy/catchapromotion/catchapromotion_discount";
+@import "galaxy/catchapromotion/catchapromotion_ideal";
+@import "galaxy/catchapromotion/catchapromotion_sole";
+
+// cinema
+@import "galaxy/cinema/cinema_flim_list";
+@import "galaxy/cinema/cinema_seating_img";
+@import "galaxy/cinema/cinema_advertisement";
+
+//  metting
+@import "galaxy/metting/metting_overview";
+
+// banquet
+@import "galaxy/banquet/banquet_space";
+
+// exclusivecollections
+@import "galaxy/exclusivecollections/exclusivecollections_load_more";
+
+
+// Exclusive Collection Detail Page01
+@import "galaxy/exclusive/ex_collection_page01";
+@import "galaxy/exclusive/ex_product_list";
+
+// Exclusive Collection Detail Page02
+@import "galaxy/exclusive/ex_collection_page02";
+@import "galaxy/exclusive/ex_product_list";
+
+// Exclusive Collection Detail Page03
+@import "galaxy/exclusive/ex_collection_page03";
+@import "galaxy/exclusive/ex_product_list";
+
+// opdp
+@import "galaxy/opdp/opdp_feeling";
+@import "galaxy/opdp/opdp_romantic";
+@import "galaxy/opdp/opdp_time";
+@import "galaxy/opdp/opdp_explain";
+@import "galaxy/opdp/opdp_test";
+@import "galaxy/opdp/opdp_courtesy";
+@import "galaxy/opdp/opdp_erwei";
+
+// privateparty
+@import "galaxy/privateparty/privateparty_space";
+@import "galaxy/privateparty/privateparty_formmodel";
+
+// specialoDPage
+@import "galaxy/specialoDPage/specialoDPage_hero_slide";
+@import "galaxy/specialoDPage/specialoDPage_information";
+@import "galaxy/specialoDPage/specialoDPage_sole";
+
+//restaurantDPwhiteSV  3.1.1.2 Restaurant Detail Page white & simple version
+@import "galaxy/restaurantDPwhiteSV/restaurantDPwhiteSV_introduce";
+@import "galaxy/restaurantDPwhiteSV/restaurantDPwhiteSV_map";
+@import "galaxy/restaurantDPwhiteSV/restaurantDPwhiteSV_explain";
+@import "galaxy/restaurantDPwhiteSV/restaurantDPwhiteSV_banner";
+@import "galaxy/restaurantDPwhiteSV/restaurantDPwhiteSV_advert";
+
+// fddp
+@import "galaxy/fddp/sprint5_hero_slideshow";
+@import "galaxy/fddp/sprint5_details";
+@import "galaxy/fddp/sprint5_recommend";
+
+
+// Brands_catalog
+@import "galaxy/brands_catalog/brands_catalog_content";
+@import "galaxy/brands_catalog/brands_catalog_advantages";
+@import "galaxy/brands_catalog/brands_catalog_nav_content";
+@import "galaxy/brands_catalog/brands_catalog_advertisement";
+@import "galaxy/brands_catalog/brands_catalog_map";
+
+//iDeal
+@import "galaxy/iDeal/iDeal_card";
+@import "galaxy/iDeal/iDeal_discount";
+@import "galaxy/iDeal/iDeal_join";
+
+//rewards
+@import "galaxy/rewards/rewards_introduce";
+@import "galaxy/rewards/rewards_nav";
+@import "galaxy/rewards/rewards_card";
+@import "galaxy/rewards/rewards_icon";
+@import "galaxy/rewards/rewards_content";
+
+
+//GettingHereFSBuses
+@import "galaxy/GettingHereFSBuses/GettingHereFSBuses_hero_slide";
+@import "galaxy/GettingHereFSBuses/GettingHereFSBuses_route";
+@import "galaxy/GettingHereFSBuses/GettingHereFSBuses_guide";
+@import "galaxy/GettingHereFSBuses/GettingHereFSBuses_free";
+@import "galaxy/GettingHereFSBuses/GettingHereFSBuses_content";
+
+//GettingHereFSParking
+@import "galaxy/GettingHereFSBuses/GettingHereFSParking_route";
+@import "galaxy/GettingHereFSBuses/GettingHereFSParking_guide";
+@import "galaxy/GettingHereFSBuses/GettingHereFSParking_free";
+@import "galaxy/GettingHereFSBuses/GettingHereFSParking_content";
+
+//privacyPolicy
+@import "galaxy/privacyPolicy/privacyPolicy_content";
+
+//aboutUs
+@import "galaxy/aboutUs/aboutUs_content";
+
+//news
+@import "galaxy/news/news_message";
+@import "galaxy/news/news_title";
+@import "galaxy/news/news_content";
+@import "galaxy/news/news_footer";
+
+
+//newsDetailPage
+@import "galaxy/newsDetailPage/newsDetailPage_message";
+@import "galaxy/newsDetailPage/newsDetailPage_title";
+@import "galaxy/newsDetailPage/newsDetailPage_content";
+
+
+//contactUs
+@import "galaxy/contactUs/contactUs_content";
+
+//gourmetChannel
+@import "galaxy/gourmetChannel/gourmetChannel_content";
+@import "galaxy/gourmetChannel/gourmetChannel_swiper";
+
+//RestaurantDetailPg
+@import "galaxy/RestaurantDetailPg/RestaurantDetailPg_introduce";
+@import "galaxy/RestaurantDetailPg/RestaurantDetailPg_map";
+@import "galaxy/RestaurantDetailPg/RestaurantDetailPg_explain";
+@import "galaxy/RestaurantDetailPg/RestaurantDetailPg_banner";
+@import "galaxy/RestaurantDetailPg/RestaurantDetailPg_advert";
+
+//VideoPopup
+@import "galaxy/VideoPopup/VideoPopup_info";
+@import "galaxy/VideoPopup/VideoPopup_video";
+@import "galaxy/VideoPopup/VideoPopup_res";
+@import "galaxy/VideoPopup/VideoPopup_options";
+@import "galaxy/VideoPopup/VideoPopup_special";
+@import "galaxy/VideoPopup/VideoPopup_monthchief";
+@import "galaxy/VideoPopup/VideoPopup_treatment";
+@import "galaxy/VideoPopup/VideoPopup_ads";
+@import "galaxy/VideoPopup/VideoPopup_week";
+@import "galaxy/VideoPopup/VideoPopup_advantage";
+
+//gourmetChannelVideo
+@import "galaxy/gourmetChannelVideo/gourmetChannelVideo_content";
+@import "galaxy/gourmetChannelVideo/gourmetChannelVideo_swiper";
+
+// specialOffers
+@import "galaxy/specialOffers/specialOffers_details";
+// dishoftheweek
+@import "galaxy/dishoftheweek/dishoftheweek_details";
+@import "galaxy/dishoftheweek/dishoftheweek_hero_show";
+
+//searchResultPage
+@import "galaxy/searchResultPage/searchResultPage_search";
+@import "galaxy/searchResultPage/searchResultPage_content";
+
+// awards
+@import "galaxy/awards/awards_introduce";
+// 404 error
+@import "galaxy/error/error_introduce";
+
+//thank
+@import "galaxy/thank/thank";
+//termsofuse
+@import "galaxy/termsofuse/common_content";
+
+//sitemap
+@import "galaxy/sitemap/sitemap_list";

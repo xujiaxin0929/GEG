@@ -1,0 +1,125 @@
+/**
+#hotel_testimonials{
+	@extend #gm_testimonials_28;
+	margin-top: 50px;
+}
+**/
+#hotel_testimonials{
+	height: 220px;
+	border:1px solid #343434;
+	overflow: hidden;
+	.left-field{
+		padding: 42px 48px 0 60px;
+		p{
+			margin-bottom: 15px;
+		}
+		.qoute-feild{
+			position: relative;
+			font-size: 14px;
+			line-height: 23px;
+			color:#343434;
+			&__left{
+				position: absolute;
+				font-size: 60px; 
+				top: 0;
+				left: -28px;
+			}
+			&__right{
+				position: absolute;
+				font-size: 60px; 
+				bottom: -18px;
+				right: -20px;
+			}
+		}
+	}
+	.right-feild{
+		text-align: right;
+		@media (max-width: $screen-md-max){
+			text-align: center;
+		}
+		&__name{
+			padding-top: 58px;
+			font-size: 22px;
+			line-height: 22px;
+		}
+		&__date{
+			padding-top: 20px;
+			font-size: 14px;
+			line-height: 14px;
+		}
+		&__img{
+			margin-top: 30px;
+			display:inline-block;
+		}
+	}
+	.swiper-container{
+		height: 100%;
+		.swiper-pagination-bullet {
+			background-color: #999;
+			opacity: 1;
+			margin:0 8px;
+		}
+		.swiper-pagination-bullet-active {
+			background-color: #343434; 
+		}
+	}
+}
+
+@media (min-width: $screen-md-min) {/**992**/
+	#hotel_testimonials{
+		.active_noImg{
+			.left-field{
+				width: 83.33%;
+			}
+			.right-feild{
+				width: 16.67%;
+				> div:nth-child(1){
+					display: none;
+				}
+
+				&-main{
+					width: 100%;
+				}
+			}
+		}
+	}
+	
+}
+
+@media (max-width: $screen-sm-max) { /*991**/
+	#hotel_testimonials{
+		// min-height: 466px;
+		height:auto;
+		margin: 70px auto 0; 
+		.swiper-container{
+			padding-bottom: 55px;
+		}
+		.left-field{
+			padding: 25px 33px 0 33px; 
+		}
+		.right-feild{
+			text-align: center;
+			padding-top: 10px;
+			&__img{
+				margin: 0 auto;
+			}
+			&__date{
+				padding-top: 10px;
+			}
+		}
+		.active_noImg{
+			.right-feild__img{
+				display: none;
+			}
+		}
+		.swiper-pagination{
+			bottom: 15px;
+		}
+	}
+}
+@media (max-width:580px) {
+	#hotel_testimonials{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}

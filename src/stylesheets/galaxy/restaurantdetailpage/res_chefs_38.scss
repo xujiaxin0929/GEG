@@ -1,0 +1,48 @@
+#res_chefs_38{
+	color:white;
+	@media (max-width: $screen-xs-max){
+		padding: 12px;
+		margin-top:28px;
+	}
+	.row{
+		position: relative;
+		.detail-wrapper{
+
+			@media (min-width: $screen-md-min){
+				position: absolute;
+				right: 0;
+			}
+
+			height: 100%;
+			.detail{
+				padding-left: 30px;
+				// color: white;
+				display: table;
+				
+				@media(max-width:$screen-md-max){
+					padding-left:5%;
+				}
+				height: 100.5%;
+				.inner{
+					display: table-cell;
+					vertical-align: middle;
+					h4{
+						color:white;
+					}
+					@media(max-width:$screen-sm-max){				
+						.lead{
+							margin-bottom:0px;
+						}
+					}					
+					.lead{
+						text-align: left;
+					}
+				}
+				@media screen and (max-width: $screen-md-max){
+					padding-top:16px;
+					padding-bottom: 20px;
+				}
+			}
+		}
+	}
+}

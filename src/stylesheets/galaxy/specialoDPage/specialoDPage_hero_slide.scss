@@ -1,0 +1,136 @@
+#specialoDPage_hero_slide {
+    position: absolute;
+    @extend #hp_hero_slideshow_09;
+    .swiper-wrapper {
+        .swiper-slide {
+            img {
+                position: absolute;
+                right: 3%;
+                bottom: 58px;
+            }
+            .slide-box {
+                top: 80%; // left: 53%; // width: 400px;
+                // height: 176px;
+                text-align: right;
+                padding-right: 265px;
+                position: absolute;
+                .specia_span_box {
+                    span {
+                        display: inline-block;
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: #fabb14;
+                        font-size: 23px;
+                        line-height: 50px;
+                        text-align: center;
+                    }
+                }
+                h3 {
+                    font-size: 28px;
+                    line-height: 37px;
+                    margin-top: 22px;
+                    margin-bottom: 22px;
+                }
+                p {
+                    display: inline-block;
+                    height: 30px;
+                    width: 198px;
+                    border: 1px solid #fabb14;
+                    text-align: center;
+                    line-height: 30px;
+                    border-radius: 14px;
+                    margin: 0 auto;
+                    color: #fabb14;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    .swiper-slide {
+        span {
+            @media (max-width: 767px) {
+                display: block;
+                &:nth-child(2) {
+                    margin-top: 9px;
+                }
+            }
+        }
+    }
+    @media (max-width:767px) {
+        height: 391px;
+    }
+    @media (max-width: $screen-xs-max) {
+        .swiper-wrapper {
+            .swiper-slide {
+                .spe-slide-img {
+                    height: 145px;
+                    right: 0%;
+                    bottom: 30px;
+                }
+                .slide-box {
+                    // left: 20%;
+                    // width: 200px;
+                    // height: 100px;
+                    padding-right: 114px;
+                    .specia_span_box {
+                        span {
+                            width: 25px;
+                            height: 25px;
+                            font-size: 12px;
+                            line-height: 20px;
+                            line-height: 25px;
+                        }
+                    }
+                    h3 {
+                        font-size: 14px;
+                        line-height: 18px;
+                        margin: 12px 0;
+                    }
+                    p {
+                        height: 18px;
+                        width: 125px;
+                        font-size: 9px;
+                        line-height: 18px;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $screen-sm-max) {
+        .swiper-wrapper {
+            .swiper-slide {
+                .slide-box {
+                    // left: 20%; // width: 185px;
+                    // height: 85px;
+                    // .specia_span_box {
+                    //     span {
+                    //         width: 25px;
+                    //         height: 25px;
+                    //         font-size: 12px;
+                    //         line-height: 20px;
+                    //         line-height: 25px;
+                    //     }
+                    // }
+                    // h3 {
+                    //     font-size: 14px;
+                    //     line-height: 18px;
+                    //     margin: 12px 0;
+                    // }
+                    // p {
+                    //     height: 18px;
+                    //     width: 125px;
+                    //     font-size: 9px;
+                    //     line-height: 18px;
+                    // }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .main-content {
+        margin-top: 391px;
+    }
+}

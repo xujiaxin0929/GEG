@@ -1,0 +1,23 @@
+#galaxy-util{
+    display: block;
+	position: fixed;
+    right:20px;
+    bottom: 20px;
+    padding: 10px 20px;
+    color:white;
+    z-index: 100;
+
+	@media screen and (max-width: $screen-xs-max) {
+		background-color: black;
+	}
+
+	@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		background-color: red;
+	}
+	@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		background-color: green;
+	}
+	@media (min-width: $screen-lg-min){
+		background-color: blue;
+	}
+}

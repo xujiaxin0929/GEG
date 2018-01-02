@@ -1,0 +1,65 @@
+#searchResultPage_search {
+    
+    margin-top: 118px;
+    @media(max-width: $screen-sm-max) {
+        margin-top: 72px;
+        padding: 0 12px;
+    }
+    .container {
+        .row {
+            .result_search_box {
+                border: 1px solid #bfbfbf;
+                font-size: 20px;
+                padding-left: 14px;
+                height: 38px;
+                line-height: 32px;
+                position: relative;
+                @media(max-width: $screen-sm-max){
+                    font-size: 10px;
+                    height: 28px;
+                    line-height: 26px;
+                }
+                span {
+                    color: #6e6f6f;
+                    font-size: 14px;
+                }
+                input {
+                    border: none;
+                    // padding: 5px;
+                    margin: 0;
+                    outline: none;
+                    width: 84%;
+                    margin-left: 15px;
+                    color: #6e6f6f;
+                    font-size: 14px;
+                    @media(max-width: $screen-sm-max){
+                        width: 84%;
+                        padding: 0px;
+                        font-size: 10px;
+                    }
+                }
+                .clear {
+                    display: none;
+                    position: absolute;
+                    width: 14px;
+                    height: 14px;
+                    // margin: 10px 0 0 16px;
+                    position: absolute;
+                    right: 13px;
+                    top: 10px;
+                    background: url(../images/searchResultPage_clear.png) no-repeat;
+                    background-size: 100% 100%;
+                     @media(max-width: $screen-sm-max){;
+                         top: 6px;
+                     }
+                }
+                .input::-ms-clear {
+                    display: none;
+                }
+                .input:valid+.clear {
+                    display: inline;
+                }
+            }
+        }
+    }
+}

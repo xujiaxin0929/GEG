@@ -1,0 +1,20 @@
+#opdp_courtesy{
+  margin-top: 60px;
+  @extend #hp_occasions_11;
+  .caption{
+      padding-bottom: 0px;
+  }
+  h3{
+    margin-bottom: 30px;
+    @media (max-width:991px) {
+      margin-bottom: 15px;
+    }
+  }
+  .control{
+    display: none;
+    @media(max-width:$screen-xs-max){
+      display: block;
+    }
+  }
+
+}

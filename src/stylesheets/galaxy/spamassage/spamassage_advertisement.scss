@@ -1,0 +1,7 @@
+#spamassage_advertisement{
+  margin-bottom: 60px;
+  @extend #hotel_advertisement;
+  @media (max-width:991px) {
+    margin: 0;
+  }
+}

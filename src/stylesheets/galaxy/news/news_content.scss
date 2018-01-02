@@ -1,0 +1,125 @@
+#news_content {
+    color: #343434; // border-bottom: 1px dashed #e3e2e2;
+    margin-top: 0px;
+    @media (max-width: $screen-sm-max) {
+        padding: 12px;
+        margin-top: 20px;
+        padding-top: 0px;
+    }
+    .row {
+        position: relative;
+        margin-top: 10px;
+        @media (max-width: $screen-sm-max) {
+            margin-top: 0px;
+            border-bottom: 1px dotted #e3e2e2;
+            margin-top: 14px;
+            &:nth-child(1) {
+                margin-top: 0px;
+            }
+        }
+        .img{
+            overflow: hidden;
+            cursor: pointer;
+            img{
+                transition: .3s;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        .detail-wrapper {
+            @media (min-width: $screen-md-min) {
+                position: absolute;
+                right: 0;
+            }
+            height: 100%;
+            .detail {
+                padding-left: 30px; // color: white;
+                display: table;
+                @media(max-width: $screen-md-max) {
+                    padding-left:5%;
+                }
+                @media(max-width: $screen-sm-max) {
+                    padding-top: 0px !important;
+                    padding-left: 12px;
+                    padding-bottom: 14px;
+                }
+                height: 100.5%;
+                .inner {
+                    display: table-cell;
+                    vertical-align: middle;
+                    h4 {
+                        font-size: 18px;
+                        color: #99763f;
+                        @media (max-width: $screen-sm-max) {
+                            font-size: 15px;
+                        }
+                        a {
+                            font-size: 18px;
+                            color: #99763f;
+                            @media (max-width: $screen-sm-max) {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    @media(max-width:$screen-sm-max) {
+                        .lead {
+                            margin-bottom: 0px;
+                        }
+                    }
+                    .lead {
+                        text-align: left;
+                        margin-top: 15px;
+                        margin-bottom: 25px;
+                        @media(max-width: $screen-sm-max) {
+                            margin-top: 12px;
+                            margin-bottom: 14px;
+                            span {
+                                font-size: 15px;
+                            }
+                        }
+                        span {
+                            font-size: 14px;
+                            color: #343434;
+                            margin-left: 14px;
+                        }
+                        img {
+                            margin-top: -5px;
+                        }
+                        img:nth-child(3) {
+                            margin-left: 14px;
+                        }
+                    }
+                    .bom_dashed {
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                        font-size: 14px;
+                        line-height: 28px;
+                        @media(max-width: $screen-sm-max) {
+                            font-size: 15px;
+                            line-height: 25px;
+                            -webkit-line-clamp: 3;
+                        }
+                    }
+                    i {
+                        border-top: 1px dotted #e3e2e2;
+                        display: block;
+                        height: 1px;
+                        width: 100%;
+                        margin-top: 16px;
+                        @media(max-width: $screen-xs-max) {
+                            margin-top: 23px;
+                            display: none;
+                        }
+                    }
+                }
+                @media screen and (max-width: $screen-md-max) {
+                    padding-top: 16px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}

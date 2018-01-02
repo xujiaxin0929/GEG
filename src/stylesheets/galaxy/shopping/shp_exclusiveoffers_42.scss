@@ -1,0 +1,86 @@
+#shp_exclusiveoffers_42 {
+    margin-top: 78px;
+    @media(max-width: $screen-sm-max) {
+        margin-top: 38px;
+    }
+    .container {
+        @media(max-width: $screen-sm-max) {
+            width:auto;
+        }
+    }
+    h3 {
+        @media(max-width: $screen-md-min) {
+            margin:0px;
+        }
+        @media(max-width:$screen-md-min) {
+            margin: 0 20px;
+        }
+    }
+    .row:nth-child(2) {
+        position:relative;
+        margin-top: 32px;
+        .col-lg-8 {
+            @media(min-width: $screen-lg-min) {
+                height:100%;
+            }
+            img {
+                height: 100%;
+            }
+            img:nth-child(2) {
+                background: #f8f8f8;
+                height: 100%;
+            }
+        }
+        >.col-lg-4 {
+            padding-left:30px;
+            @media(min-width: $screen-md-min) {
+                position: absolute;
+                right:0;
+                height:100%;
+            }
+            @media(max-width: $screen-sm-max) {
+                padding:18px;
+            }
+            .detail{
+                height:100%;
+                display:table;
+                .inner{
+                    display:table-cell;
+                    vertical-align: middle;
+                    h5 {
+                        font-size: 20px;
+                        line-height: 28px;
+                        a{
+                            color: #343434;
+                            &:hover{text-decoration: none;color:#343434;}
+                            &:focus{text-decoration: none;color:#343434;}
+                        }
+                    }
+                    p {
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+        .more {
+            width: 14px;
+            height: 14px;
+            border: 1px solid #9c7b46;
+            display: inline-block;
+            line-height: 14px;
+            text-align: right;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+        .more:before {
+            content: '\0049';
+            display: inline-block;
+            font-size: 7px;
+            font-family: 'galaxy icon';
+            font-style: normal;
+            font-weight: normal;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+}

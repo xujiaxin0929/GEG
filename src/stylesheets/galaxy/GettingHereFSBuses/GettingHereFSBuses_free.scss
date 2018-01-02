@@ -1,0 +1,41 @@
+#GettingHereFSBuses_free{
+    .container{
+        .row{
+            div{
+                h2{
+                    font-size: 30px;
+                    color: #343434;
+                    margin: 0px;
+                }
+                ul{
+                    margin-top: 28px;
+                    li{
+                        font-size: 16px;
+                        color: #000;
+                        line-height: 36px;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $screen-xs-max){
+        margin-top: 40px;
+        padding: 0 12px;
+        .container{
+            .row{
+                div{
+                    h2{
+                        font-size: 25px
+                    }
+                    ul{
+                        margin-top: 15px;
+                        li{
+                            font-size: 15px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

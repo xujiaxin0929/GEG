@@ -1,0 +1,172 @@
+#GettingHereFSParking_content {
+    margin-top: 84px;
+    @media (max-width: $screen-xs-max) {
+        margin-top: 46px;
+    }
+    .container {
+        .row {
+            // border-bottom: 1px solid black;
+            div {
+                span {
+                    @media (max-width: $screen-xs-max) {
+                        display: block;
+                        line-height: 17px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            &:nth-child(1) {
+                div {
+                    background: #343434;
+                    height: 60px;
+                    text-align: center;
+                    font-size: 20px;
+                    color: #fff;
+                    line-height: 60px;
+                    @media (max-width: $screen-xs-max) {
+                        height: 30px;
+                        line-height: 30px;
+                        font-size: 9px;
+                    }
+                }
+            }
+            &:nth-child(2) {
+                div {
+                    background: #fff;
+                    height: 150px;
+                    text-align: center;
+                    font-size: 20px;
+                    color: #343434;
+                    line-height: 150px;
+                    border-right: 1px solid black;
+                    border-bottom: 1px solid black;
+                    @media (max-width: $screen-xs-max) {
+                        height: 75px;
+                        line-height: 75px;
+                        font-size: 12px;
+                        &:nth-child(3) {
+                            padding-top: 20px;
+                        }
+                    }
+                    &:nth-child(1) {
+                        background: #f5964f;
+                        font-size: 50px;
+                        color: #fff;
+                        border: none;
+                        @media (max-width: $screen-xs-max) {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(3) {
+                div {
+                    background: #fff;
+                    height: 150px;
+                    text-align: center;
+                    font-size: 20px;
+                    color: #343434;
+                    line-height: 150px;
+                    border-bottom: 1px solid black;
+                    border-right: 1px solid black;
+                    @media (max-width: $screen-xs-max) {
+                        height: 75px;
+                        line-height: 75px;
+                        font-size: 12px;
+                        &:nth-child(2) {
+                            padding-top: 20px;
+                        }
+                        &:nth-child(3) {
+                            padding-top: 20px;
+                        }
+                    }
+                    &:nth-child(1) {
+                        background: #6f369d;
+                        font-size: 50px;
+                        color: #fff;
+                        border: none;
+                        @media (max-width: $screen-xs-max) {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(4) {
+                div {
+                    background: #fff;
+                    height: 150px;
+                    text-align: center;
+                    font-size: 20px;
+                    color: #343434;
+                    line-height: 150px;
+                    border-bottom: 1px solid black;
+                    border-right: 1px solid black;
+                    @media (max-width: $screen-xs-max) {
+                        height: 75px;
+                        line-height: 75px;
+                        font-size: 14px;
+                        &:nth-child(2) {
+                            padding-top: 20px;
+                        }
+                    }
+                    &:nth-child(1) {
+                        background: #1aaf54;
+                        font-size: 50px;
+                        color: #fff;
+                        border: none;
+                        @media (max-width: $screen-xs-max) {
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+            &:nth-child(5) {
+                div {
+                    background: #fff;
+                    height: 150px;
+                    text-align: center;
+                    font-size: 20px;
+                    color: #343434;
+                    line-height: 150px;
+                    border-bottom: 1px solid black;
+                    border-right: 1px solid black;
+                    @media (max-width: $screen-xs-max) {
+                        height: 75px;
+                        line-height: 75px;
+                        font-size: 14px;
+                        &:nth-child(3) {
+                            padding: 0 20px;
+                            padding-top: 8px !important;
+                        }
+                    }
+                    &:nth-child(1) {
+                        background: #1272be;
+                        font-size: 50px;
+                        color: #fff;
+                        border: none; // font-size: 22px;
+                        @media (max-width: $screen-xs-max) {
+                            font-size: 22px;
+                        }
+                    }
+                    &:nth-child(3) {
+                        padding-top: 44px;
+                    }
+                    span {
+                        display: block;
+                        line-height: 24px;
+                        font-size: 18px;
+                        color: #343434;
+                        @media (max-width: $screen-xs-max) {
+                            font-size: 12px;
+                            line-height: 20px;
+                        }
+                    }
+                }
+            }
+            div {
+                // border-right: 1px solid black;
+            }
+        }
+    }
+    @media (max-width: $screen-xs-max) {}
+}

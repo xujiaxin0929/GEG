@@ -1,0 +1,17 @@
+#dishoftheweek_hero_show{
+  position: relative;
+  overflow: hidden;
+  img{width: 100%;}
+  @media (max-width:$screen-xs-max) {
+    height: 385px;
+    img{
+      width:auto;
+      height:100%;
+      position:absolute;
+      top:0;
+      left:50%;
+      transform:translateX(-50%);
+      -webkit-transform:translateX(-50%) !important;
+    }
+  }
+}

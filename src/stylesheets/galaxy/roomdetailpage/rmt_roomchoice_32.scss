@@ -1,0 +1,32 @@
+
+#rmt_roomchoice_32{
+	@extend #hp_occasions_11;
+  .caption{
+		>p{
+			font-size: 14px;
+			color:#343434;
+			line-height: 22px;
+			height:44px;
+			overflow:hidden;
+		}
+	}
+}
+@media (max-width: $screen-xs-max) {
+	#rmt_roomchoice_32{
+		margin-top: 40px;
+		padding-left: 0;
+		padding-right: 0;
+		h3{
+			margin: 0 12px;
+			span{
+				padding: 0 30px;
+				 @media (max-width: $screen-xs-min) {
+              padding: 0 8px;
+          }
+			}
+		}
+		.lead{
+			margin: 15px 0;
+		}
+	}
+}

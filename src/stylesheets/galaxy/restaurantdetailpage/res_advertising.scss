@@ -1,0 +1,51 @@
+#res_advertising{
+    margin-top:80px;
+    @media(max-width:$screen-xs-max){
+        margin-top:60px;
+    }
+    .res_advertising_top{
+        height:120px;
+        @media(max-width:$screen-xs-max){
+            height:180px;
+        }
+        position: relative;
+        overflow:hidden;
+        img{
+            width:100%;
+            height:100%;          
+        }
+        .row{
+            width:100%;
+            height: 100%;
+            position: absolute;
+            top:30%;
+            left:0px;
+            @media(max-width:$screen-xs-max){
+                top:0%;left:0px;
+                background: #60615f;
+                text-align: center;
+                .res_advertising_middle{
+                    h4{
+                        color:white;
+                        margin-top:22px;
+                    }
+                    p{
+                        color:white;
+                        line-height: 44px;
+                    }
+                }
+                opacity: 0.5;
+                .btn-info{
+                    border:1px solid white;
+                    color:white;
+                }
+            }
+            .res_advertising_middle{
+                h4{
+                    font-weight:800;
+                }
+                color:black;
+            }           
+        }
+    }
+}

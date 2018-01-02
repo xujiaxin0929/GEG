@@ -1,0 +1,699 @@
+{
+    "tasks": [
+        {
+            "name": "homepage",
+            "desc": "0.0 Homepage",
+            "blocks": [
+                "common/gm_main_menu",
+                "homepage/hp_hero_slideshow_09",
+                "common/hp_bookingbar_10",
+                "homepage/hp_occasions_11",
+                "homepage/hp_occcasionpackages_12",
+                "homepage/hp_highlights_13",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "wheretostay",
+            "desc": "2.0 Where to stay",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/hp_bookingbar_10",
+                "wheretostay/hotel_allhotels_22",
+                "wheretostay/hotel_wets_23",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "restaurantdetailpage",
+            "desc": "3.1.2.4 812 Otto e Mezzo BOMBANA",
+            "blocks": [
+                "common/gm_main_menu",
+                "restaurantdetailpage/res_chefrecommendation_35",
+                "restaurantdetailpage/restaurant_chefs_33",
+                "restaurantdetailpage/restaurant_advantages_34",
+                "restaurantdetailpage/gm_testimonials_14",
+                "restaurantdetailpage/res_specialoffers_37",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "roomdetailpage",
+            "desc": "2.1.5 Royal Suite",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/hp_bookingbar_10",
+                "roomdetailpage/room_details_thumbnail_slider",
+                "roomdetailpage/rmt_roomchoice_32",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "roomdetailpage360",
+            "desc": "2.1.5 Royal Suite 360",
+            "blocks": [
+                "common/gm_main_menu",
+                "roomdetailpage360/room_pano",
+                "common/hp_bookingbar_10",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "deluxeroom",
+            "desc": "2.5.1 Deluxe Room 360",
+            "blocks": [
+                "common/gm_main_menu",
+                "deluxeroom/deluxeroom_pano",
+                "common/hp_bookingbar_10",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "galaxyhotel",
+            "desc": "2.1 Galaxy Hotel-mobile",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/hp_bookingbar_10",
+                "galaxyhotel/hotel_name",
+                "galaxyhotel/hotel_rooms",
+                "galaxyhotel/hotel_advantages",
+                "galaxyhotel/hotel_more",
+                "galaxyhotel/hotel_testimonials",
+                "galaxyhotel/hotel_discount",
+                "galaxyhotel/hotel_advertisement",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "entertainment",
+            "desc": "3.4 Entertainment",
+            "blocks": [
+                "common/gm_main_menu",
+                "entertainment/entertainment_recommend",
+                "entertainment/entertainment_advantages_1",
+                "entertainment/entertainment_perform",
+                "entertainment/entertainment_silverStone",
+                "entertainment/entertainment_advertisement",
+                "entertainment/entertainment_startConcert",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "grandresortdeck",
+            "desc": "3.5 Grand Resort Deck",
+            "blocks": [
+                "common/gm_main_menu",
+                "grandresortdeck/grd_info_49",
+                "grandresortdeck/grd_highlights_50",
+                "grandresortdeck/grd_swimmingpool_51",
+                "grandresortdeck/grd_diningfacilities_53",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "onedaypassform",
+            "desc": "3.5.1 One Day Pass Form",
+            "blocks": [
+                "common/gm_main_menu",
+                "onedaypassform/onedaypassform_info_49",
+                "grandresortdeck/grd_highlights_50",
+                "grandresortdeck/grd_swimmingpool_51",
+                "grandresortdeck/grd_waterfacilities_52",
+                "grandresortdeck/grd_diningfacilities_53",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "restaurantscatalog",
+            "desc": "3.1.1 Restaurant catalog",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section",
+                "restaurantscatalog/res_nav_content",
+                "restaurantscatalog/res_content"
+            ]
+        },
+        {
+            "name": "moviedetailpage",
+            "desc": "3.3.1 Movie Detail Page",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section",
+                "moviedetailpage/movie_time",
+                "moviedetailpage/more_movie",
+                "moviedetailpage/enjoyingtreatment"
+            ]
+        },
+        {
+            "name": "dining",
+            "desc": "3.1 Dining",
+            "blocks": [
+                "common/gm_main_menu",
+                "roomdetailpage/room_pano",
+                "common/hp_bookingbar_12",
+                "common/hp_bookingbar_10",
+                "dining/dining_ads",
+                "dining/dining_res",
+                "dining/dining_week",
+                "roomdetailpage/room_features",
+                "roomdetailpage/room_more",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "shopping",
+            "desc": "3.2 shopping",
+            "blocks": [
+                "common/gm_main_menu",
+                "shopping/gm_map_16",
+                "common/gm_footer_section",
+                "shopping/shp_testimonials_46"
+            ]
+        },
+        {
+            "name": "shopdetailpage",
+            "desc": "3.2.4.1 shopdetailpage",
+            "blocks": [
+                "common/gm_main_menu",
+                "shopdetailpage/shop_details_thumbnail_slider",
+                "shopdetailpage/shop_details_img",
+                "galaxyhotel/hotel_advertisement",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "shopdetailpage_original",
+            "desc": "3.2.4.1 shopdetailpage",
+            "blocks": [
+                "common/gm_main_menu",
+                "shopdetailpage/shop_details_thumbnail_slider1",
+                "shopdetailpage/shop_details_img",
+                "galaxyhotel/hotel_advertisement",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "whattodo",
+            "desc": "3.0 What to do",
+            "blocks": [
+                "common/gm_main_menu",
+                "whattodo/wtd_whatsnew_39",
+                "common/gm_footer_section",
+                "whattodo/wtd_testimonials_14"
+            ]
+        },
+        {
+            "name": "spamassage",
+            "desc": "3.6 SPA & Massage",
+            "blocks": [
+                "common/gm_main_menu",
+                "spamassage/spamassage_banyanspa",
+                "spamassage/spamassage_ysb",
+                "spamassage/spamassage_foot",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "micepage",
+            "desc": "4.0 Mice page",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "wedding",
+            "desc": "4.2 Wedding",
+            "blocks": [
+                "common/gm_main_menu",
+                "wedding/common_slide_01",
+                "wedding/wedding_love",
+                "wedding/wedding_more",
+                "wedding/wedding_recommend",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "discover",
+            "desc": "5.0 Discover",
+            "blocks": [
+                "common/gm_main_menu",
+                "discover/discover_hero_slide"
+            ]
+        },
+        {
+            "name": "macallanduo",
+            "desc": "3.4.2 Macallan Duo",
+            "blocks": [
+                "common/gm_main_menu",
+                "macallanduo/macallanduo_courtesy",
+                "macallanduo/macallanduo_recommend"
+            ]
+        },
+        {
+            "name": "rizcalton",
+            "desc": "The Riz-Calton bar & lounge live band",
+            "blocks": [
+                "common/gm_main_menu",
+                "rizcalton/rizcalton_courtesy",
+                "rizcalton/rizcalton_recommend"
+            ]
+        },
+        {
+            "name": "chinarougeshow",
+            "desc": "3.4.1ChinaRougeShow",
+            "blocks": [
+                "common/gm_main_menu",
+                "chinarougeshow/chinarougeshow_courtesy",
+                "chinarougeshow/chinarougeshow_recommend"
+            ]
+        },
+        {
+            "name": "catchapromotion",
+            "desc": "1.0 Catch a promotion",
+            "blocks": [
+                "common/gm_main_menu",
+                "catchapromotion/catchapromotion_discount",
+                "catchapromotion/catchapromotion_sole"
+            ]
+        },
+        {
+            "name": "cinema",
+            "desc": "3.3 Cinema",
+            "blocks": [
+                "common/gm_main_menu",
+                "cinema/cinema_flim_list",
+                "cinema/cinema_seating_img",
+                "cinema/cinema_advertisement",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "metting",
+            "desc": "4.1 Metting",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "opdp",
+            "desc": "1.1.1 OPDP",
+            "blocks": [
+                "common/gm_main_menu",
+                "opdp/opdp_feeling",
+                "opdp/opdp_romantic",
+                "opdp/opdp_time",
+                "opdp/opdp_explain",
+                "opdp/opdp_test",
+                "opdp/opdp_courtesy",
+                "opdp/opdp_erwei",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "banquet",
+            "desc": "4.3 Banquet",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "exclusivecollections",
+            "desc": "3.2.2 Exclusive Collections",
+            "blocks": [
+                "common/gm_main_menu",
+                "exclusivecollections/exclusivecollections_load_more",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "ex_collection_page01",
+            "desc": "3.2.2.1 Exclusive Collection Detail Page-1",
+            "blocks": [
+                "common/gm_main_menu",
+                "exclusive/ex_collection_page01",
+                "exclusive/ex_product_list",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "ex_collection_page02",
+            "desc": "3.2.2.2 Exclusive Collection Detail Page-2",
+            "blocks": [
+                "common/gm_main_menu",
+                "exclusive/ex_collection_page02",
+                "exclusive/ex_product_list",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "privateparty",
+            "desc": "4.4 Private Party",
+            "blocks": [
+                "common/gm_main_menu",
+                "privateparty/privateparty_formmodel",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "specialoDPage",
+            "desc": "1.2.1 specialoDPage",
+            "blocks": [
+                "common/gm_main_menu",
+                "specialoDPage/specialoDPage_hero_slide",
+                "specialoDPage/specialoDPage_information",
+                "specialoDPage/specialoDPage_sole",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "restaurantDPwhiteSV",
+            "desc": "3.1.1.2 restaurantDPwhiteSV",
+            "blocks": [
+                "common/gm_main_menu",
+                "restaurantDPwhiteSV/restaurantDPwhiteSV_hero_slide",
+                "restaurantDPwhiteSV/restaurantDPwhiteSV_introduce",
+                "restaurantDPwhiteSV/restaurantDPwhiteSV_map",
+                "restaurantDPwhiteSV/restaurantDPwhiteSV_explain",
+                "restaurantDPwhiteSV/restaurantDPwhiteSV_banner",
+                "restaurantDPwhiteSV/restaurantDPwhiteSV_advert",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "fddp",
+            "desc": "5.1.1 Food & Drinks Detail Page",
+            "blocks": [
+                "common/gm_main_menu",
+                "fddp/sprint5_hero_slideshow",
+                "fddp/sprint5_recommend",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "placesDP",
+            "desc": "5.4.1 Places Detail Page",
+            "blocks": [
+                "common/gm_main_menu",
+                "fddp/sprint5_hero_slideshow",
+                "fddp/sprint5_recommend",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "lifestyleDP",
+            "desc": "5.2.1 Lifestyle Details Page",
+            "blocks": [
+                "common/gm_main_menu",
+                "fddp/sprint5_hero_slideshow",
+                "fddp/sprint5_recommend",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "peopleDP",
+            "desc": "5.3.1 People Detail Page",
+            "blocks": [
+                "common/gm_main_menu",
+                "fddp/sprint5_hero_slideshow",
+                "fddp/sprint5_recommend",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "ex_collection_page03",
+            "desc": "3.2.2.2 Exclusive Collection Detail Page-3",
+            "blocks": [
+                "common/gm_main_menu",
+                "exclusive/ex_collection_page03",
+                "exclusive/ex_product_list",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "brands_catalog",
+            "desc": "3.2.4 Brands' catalog",
+            "blocks": [
+                "common/gm_main_menu",
+                "brands_catalog/brands_catalog_content",
+                "brands_catalog/brands_catalog_advantages",
+                "brands_catalog/brands_catalog_nav_content",
+                "brands_catalog/brands_catalog_map",
+                "brands_catalog/brands_catalog_advertisement",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "rewards",
+            "desc": "6.0 rewards",
+            "blocks": [
+                "common/gm_main_menu",
+                "rewards/rewards_introduce",
+                "rewards/rewards_nav",
+                "rewards/rewards_card",
+                "rewards/rewards_icon",
+                "rewards/rewards_content",
+                "rewards/rewards_nav",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "iDeal",
+            "desc": "0.14 iDeal",
+            "blocks": [
+                "common/gm_main_menu",
+                "iDeal/iDeal_card",
+                "iDeal/iDeal_discount",
+                "iDeal/iDeal_join",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "GettingHereFSBuses",
+            "desc": "0.12 GettingHereFSBuses",
+            "blocks": [
+                "common/gm_main_menu",
+                "GettingHereFSBuses/GettingHereFSBuses_hero_slide",
+                "GettingHereFSBuses/GettingHereFSBuses_route",
+                "GettingHereFSBuses/GettingHereFSBuses_guide",
+                "GettingHereFSBuses/GettingHereFSBuses_free",
+                "GettingHereFSBuses/GettingHereFSBuses_content",
+                "GettingHereFSParking/GettingHereFSParking_route",
+                "GettingHereFSParking/GettingHereFSParking_guide",
+                "GettingHereFSParking/GettingHereFSParking_free",
+                "GettingHereFSParking/GettingHereFSParking_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "GettingHereFSParking",
+            "desc": "0.11 GettingHereFSParking",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "privacyPolicy",
+            "desc": "0.13 privacyPolicy",
+            "blocks": [
+                "common/gm_main_menu",
+                "privacyPolicy/privacyPolicy_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "aboutUs",
+            "desc": "0.2 aboutUs",
+            "blocks": [
+                "common/gm_main_menu",
+                "aboutUs/aboutUs_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "news",
+            "desc": "0.3 news",
+            "blocks": [
+                "common/gm_main_menu",
+                "news/news_title",
+                "news/news_message",
+                "news/news_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "newsDetailPage",
+            "desc": "0.3.1 newsDetailPage",
+            "blocks": [
+                "common/gm_main_menu",
+                "newsDetailPage/newsDetailPage_title",
+                "newsDetailPage/newsDetailPage_message",
+                "newsDetailPage/newsDetailPage_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "contactUs",
+            "desc": "0.6 contactUs",
+            "blocks": [
+                "common/gm_main_menu",
+                "contactUs/contactUs_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "gourmetChannel",
+            "desc": "3.1.3 gourmetChannel",
+            "blocks": [
+                "common/gm_main_menu",
+                "gourmetChannel/gourmetChannel_swiper",
+                "gourmetChannel/gourmetChannel_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "RestaurantDetailPg",
+            "desc": "3.1.2.1 RestaurantDetailPg",
+            "blocks": [
+                "common/gm_main_menu",
+                "roomdetailpage/room_pano",
+                "common/hp_bookingbar_12",
+                "common/hp_bookingbar_10",
+                "RestaurantDetailPg/RestaurantDetailPg_hero_slide",
+                "RestaurantDetailPg/RestaurantDetailPg_introduce",
+                "RestaurantDetailPg/RestaurantDetailPg_map",
+                "RestaurantDetailPg/RestaurantDetailPg_explain",
+                "RestaurantDetailPg/RestaurantDetailPg_banner",
+                "RestaurantDetailPg/RestaurantDetailPg_advert",
+                "roomdetailpage/room_features",
+                "roomdetailpage/room_more",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "VideoPopup",
+            "desc": "3.1.4 VideoPopup",
+            "blocks": [
+                "common/gm_main_menu",
+                "roomdetailpage/room_pano",
+                "common/hp_bookingbar_12",
+                "common/hp_bookingbar_10",
+                "VideoPopup/VideoPopup_ads",
+                "VideoPopup/VideoPopup_res",
+                "VideoPopup/VideoPopup_video",
+                "VideoPopup/VideoPopup_week",
+                "roomdetailpage/room_features",
+                "roomdetailpage/room_more",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "gourmetChannelVideo",
+            "desc": "3.1.3 gourmetChannelVideo",
+            "blocks": [
+                "common/gm_main_menu",
+                "gourmetChannelVideo/gourmetChannelVideo_swiper",
+                "gourmetChannelVideo/gourmetChannelVideo_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "specialOffers",
+            "desc": "1-3-1 SpecialOffers",
+            "blocks": [
+                "common/gm_main_menu",
+                "specialOffers/specialOffers_details",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "dishoftheweek",
+            "desc": "3.1.2 Dish of the week",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "RewardsCompare",
+            "desc": "6.0 RewardsCompare",
+            "blocks": [
+                "common/gm_main_menu",
+                "RewardsCompare/RewardsCompare_list",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "news",
+            "desc": "0.3 news",
+            "blocks": [
+                "common/gm_main_menu",
+                "news/news_footer",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "searchResultPage",
+            "desc": "0.0.2 Search result page",
+            "blocks": [
+                "common/gm_main_menu",
+                "searchResultPage/searchResultPage_content",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "awards",
+            "desc": "0.7 Awards",
+            "blocks": [
+                "common/gm_main_menu",
+                "awards/awards_introduce",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "error",
+            "desc": "0 404",
+            "blocks": [
+                "common/gm_main_menu",
+                "error/error_introduce",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "thank",
+            "desc": "0 thank",
+            "blocks": [
+                "common/gm_main_menu",
+                "thank/thank",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "termsofuse",
+            "desc": "0.0.3 Terms of use",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "antiFake",
+            "desc": "0.0.4 Beware of fraudulent website fraud",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        },
+        {
+            "name": "sitemap",
+            "desc": "0.0.5 sitemap",
+            "blocks": [
+                "common/gm_main_menu",
+                "common/gm_footer_section"
+            ]
+        }
+    ]
+}

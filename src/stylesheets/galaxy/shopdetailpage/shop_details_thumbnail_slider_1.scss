@@ -1,0 +1,32 @@
+
+
+.shop_details_thumbnail_slider
+{
+	width:100%;
+	float:left;
+	position: relative;
+	margin-bottom:25px;
+	.gallery-thumbs 
+	{
+		background:rgba(0,0,0,0.4);
+		padding: 10px;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		float: left;
+	.swiper-slide 
+		{
+	      width: 138px;
+	      margin:0 5px;
+	      height: 100%;
+	      border:1px solid rgba(0,0,0,0);
+	      cursor:pointer;
+	      &.swiper-slide-active
+	      {
+	      	border:1px solid #997542;
+	      }
+
+	    }
+	}    
+}
+

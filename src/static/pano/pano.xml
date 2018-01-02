@@ -1,0 +1,45 @@
+﻿<krpano>
+
+	<!-- the skin -->
+	<include url="skin/defaultskin.xml" />
+
+	<!-- view settings -->
+	<view hlookat="0" vlookat="0" maxpixelzoom="" fov="90.0" fovmax="90.0" fovmin="90.0" limitview="auto" />
+
+
+	<preview url="pano.tiles/preview.jpg" />
+
+	<image>
+		<cube url="pano.tiles/pano_%s.jpg" />
+	</image>
+
+	<autorotate enabled="true"
+            waittime="2.0"
+            speed="2.0"
+            />
+
+	<control
+		usercontrol="mouse"
+		mouse="drag"
+         touch="drag"
+         dragrelative="true"
+         draginertia="0.1"
+         dragfriction="0.9"
+         movetorelative="true"
+         movetoaccelerate="1.0"
+         movetospeed="10.0"
+         movetofriction="0.8"
+         keybaccelerate="0.5"
+         keybspeed="10.0"
+         keybfriction="0.9"
+         keybfovchange="0.75"
+         mousefovchange="0.0"
+         fovspeed="0.0"
+         fovfriction="0.9"
+         zoomtocursor="false"
+         zoomoutcursor="false"
+         touchzoom="false"
+         bouncinglimits="false"
+         />
+
+</krpano>

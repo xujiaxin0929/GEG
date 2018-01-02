@@ -1,0 +1,164 @@
+#gourmetChannelVideo_content {
+    margin-top: 78px;
+    @media (max-width: 991px) {
+        margin-top: 39px;
+    }
+    @extend #hotel_more; // .container{
+    // @media (min-width: $screen-sm-min) {
+    //     width: 768px;
+    //   }
+    //   @media (min-width: $screen-md-min) {
+    //     width: 988px;
+    //   }
+    //   @media (min-width: $screen-lg-min) {
+    //     width: 1188px;
+    //   }
+    // }
+    h3 {
+        margin-bottom: 26px;
+        @media (max-width: 767px) {
+            margin:0 12px 15px;
+        }
+    }
+    .content_title_txt {
+        text-align: center;
+        font-size: 14px;
+        color: #343434;
+        margin-bottom: 58px;
+        @media(max-width: $screen-sm-max) {
+            margin-bottom: 13px;
+            font-size: 15px;
+            line-height: 25px;
+            padding: 0 12px;
+        }
+    }
+    .items {
+        display: none;
+    }
+    .ok {
+        display: block;
+    }
+    .btn-box {
+        width: 100%;
+        text-align: center;
+        .more {
+            // width: auto;
+            // display: block;
+            text-align: center;
+            text-decoration: underline;
+            font-size: 22px;
+            @media(max-width: $screen-xs-max) {
+                font-size:16px;
+            }
+        }
+    }
+    .row {
+        >div {
+            padding: 0 15px;
+            margin-bottom: 42px;
+            @media(max-width: $screen-md-max) {
+                margin-bottom: 20px;
+            }
+            .img {
+                overflow: hidden;
+                display: block;
+                position: relative;
+                .img-responsive {
+                    transition: .3s;
+                    @media (max-width: 767px) {
+                        width:100%;
+                    }
+                    display: inline-block; // &:hover {
+                    //     transform: scale(1.1);
+                    // }
+                }
+                .img-video {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -36px;
+                    margin-top: -36px;
+                }
+            }
+            .caption {
+                padding-bottom: 0px;
+                h4 {
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    a {
+                        &:hover {
+                            color: #343434;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                >p {
+                    //   height: 44px;
+                    display: -webkit-box;
+                    -webkit-box-orient: vertical;
+                    -webkit-line-clamp: 2;
+                    overflow: hidden;
+                    margin-bottom: 0px;
+                    line-height: 24px;
+                    @media (max-width: 991px) {
+                        font-size: 15px;
+                        line-height: 25px;
+                    }
+                    @media(min-width:767px) {
+                        min-height: 50px;
+                    }
+                }
+                .more_btn {
+                    display: inline-block;
+                    margin-top: 15px;
+                }
+            }
+            @media (max-width: 500px) {
+                width: 100%;
+                margin-bottom: 22px;
+                padding: 0;
+            }
+        }
+    }
+    .video_show {
+        position: fixed;
+        left: 50%;
+        margin-left: -220px;
+        margin-top: -250px;
+        top: 50%;
+        z-index: 9999;
+        display: none;
+        @media(max-width: 767px) {
+            width: 100%;
+            margin-left: 0px;
+            left: 0px;
+        }
+        .video_btn {
+            height: 40px;
+            font-size: 26px;
+            color: #997644;
+            opacity: 0.8;
+            text-align: right;
+            cursor: pointer;
+            z-index: 9999;
+        }
+        .video_show_content {
+            width: 490px;
+            height: 368px;
+            @media(max-width: 767px) {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .video_hide {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        display: none;
+        background-color: #000;
+        opacity: 0.8;
+        z-index: 9998;
+    }
+}

@@ -1,0 +1,23 @@
+#chinarougeshow_detail{
+  @extend #macallanduo_detail;
+  .macallanduo_detail_top{
+    .hidden-lg{
+      img{
+        @media (max-width:991px) {
+          width: 67px;
+        }
+      }
+    }
+    h3{
+      @media (max-width:991px) {
+          padding-top: 86px;
+          margin-bottom: 0;
+        }
+    }
+  }
+  .share_bottom{
+    text-align: center;
+    font-size: 15px;
+    margin:-10px 0 15px;
+  }
+}

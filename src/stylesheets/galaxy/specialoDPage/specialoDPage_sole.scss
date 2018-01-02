@@ -1,0 +1,52 @@
+#specialoDPage_sole {
+    @extend #hp_occasions_11;
+    margin-top: 68px;
+    margin-bottom: 60px;
+    .container {
+        div {
+            h3 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+    .show-time {
+        font-size: 14px;
+        color: #343434;
+        // margin-bottom: 12px;
+        margin-top: 16px;
+        .glyphicon-time {
+            margin: -1px 6px 0 0;
+            top: 0;
+            &:before {
+                content: "";
+                display: inline-block;
+                width: 12px;
+                height: 12px;
+                background: url(../images/time-iconi.png) no-repeat;
+                background-size: 100% 100%;
+            }
+        }
+    }
+    .caption{
+    }
+    @media (max-width: $screen-sm-max){
+        margin-top: 40px;
+        margin-bottom: 30px;
+        .control{
+            top: 48%;
+        }
+        .caption{
+            h4{
+                font-size: 20px;
+                // line-height: 14px;
+                overflow: visible;
+            }
+            p{
+                margin-top: 17px;
+            }
+            a{
+                margin-top: 17px;
+            }
+        }
+    }
+}

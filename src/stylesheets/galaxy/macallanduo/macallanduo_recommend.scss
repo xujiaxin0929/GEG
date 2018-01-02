@@ -1,0 +1,35 @@
+#macallanduo_recommend{
+  @extend #entertainment_perform;
+  margin: 30px 0 60px;
+  @media (max-width:767px) {
+    margin-bottom: 25px;
+  }
+  .caption{
+    p{
+      height:44px;
+    }
+    @media (max-width:767px) {
+      padding-bottom: 0;
+    }
+  }
+  .position-ico{
+    &.glyphicon-time{
+      margin-top: -2px;
+      &:before{
+        width: 14px !important;
+        height:14px !important;
+        margin-left: 2px;
+        background-size: 100% 100% !important;
+      }
+    }
+  }
+  .swiper-container-wrapper{
+    @media (max-width:767px) {
+        margin: 0 12px;
+        border: 1px solid #bbb;
+        .control{
+          top: 27%;
+        }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+/**
+#hotel_advantages{
+	.swiper-container{
+		margin-top: 70px;
+		margin-bottom: 70px;
+		padding-left: 14%;
+		padding-right: 14%;
+		.swiper-wrapper{
+			.swiper-slide{
+				// width: 180px;
+				font-size: 16px;
+				text-align: center;
+				.img-wrapper{
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+	.control{
+		margin-top: -50px;
+	}
+}
+**/
+#hotel_advantages{
+	@media (max-width: $screen-xs-max) {
+		margin-top: 20px;
+	}
+	.advantages-wrap{
+		font-size: 0;
+	}
+	.col-xs-6{
+		@media (min-width: $screen-xs-min) {
+			width:20%;
+		}
+		@media (max-width: $screen-md-max) {
+			float: none;
+			display:inline-block;
+			vertical-align: top;
+			width:50%;
+			margin-bottom:10px;
+		}
+	}
+	h3{
+		@media (max-width: $screen-xs-max) {
+			margin: 0 12px;
+
+			span{
+				padding: 0 30px;
+				 @media (max-width: $screen-xs-min) {
+            padding: 0 8px;
+        }
+			}
+		}
+	}
+	.row{
+		padding-top: 58px;
+	}
+	.text-center{
+		margin-top: 18px;
+		margin-bottom: 0;
+		font-size: 16px;
+		color: #343434;
+		line-height: 24px;
+		@media (max-width: $screen-xs-max) {
+			margin: 8px auto 12px
+		}
+	}
+	.img-wrapper{
+		height: 125px;
+		display: table;
+		margin: 0 auto;
+		.img-inner{
+			height: 100%;
+			display: table-cell;
+			vertical-align: middle;
+			img{
+				max-height: 125px;
+			}
+		}
+	}
+}

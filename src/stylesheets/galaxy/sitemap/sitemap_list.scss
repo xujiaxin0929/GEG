@@ -1,0 +1,217 @@
+#sitemap_list {
+    margin-top: 208px;
+    @media(max-width:$screen-sm-max){
+            padding: 0 12px;
+            margin-top: 48px;
+        }
+    @media(max-width: $screen-sm-max) {}
+    .sitemap_list_first {
+        margin-bottom: 78px;
+        
+        h2 {
+            font-size: 50px;
+            color: #343434;
+            margin-bottom: 50px;
+        }
+        .sitemap_list_col {
+            // width: 20%;
+            float: left;
+            a{
+                color: #343434;
+            }
+            h4 {
+                font-size: 24px;
+                color: #343434; // margin-bottom: 26px;
+                margin: 0px;
+            }
+            ul {
+                padding-left: 0px;
+                margin-bottom: 0px;
+                li {
+                    font-size: 16px;
+                    color: #343434; // margin-bottom: 18px;
+                    list-style: none;
+                }
+            }
+            &:nth-of-type(1) {
+                width: 25%;
+                h4 {
+                    margin-bottom: 26px;
+                    &:nth-of-type(2) {
+                        margin-top: 22px;
+                    }
+                }
+                ul {
+                    li {
+                        margin-bottom: 18px;
+                        &:nth-last-child(1) {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+                @media(max-width:$screen-sm-max){
+                    width: 50%;
+                }
+            }
+            &:nth-of-type(2) {
+                width: 23%;
+                h4 {
+                    &:nth-of-type(2) {
+                        margin-bottom: 26px;
+                        margin-top: 40px;
+                    }
+                }
+                ul {
+                    li {
+                        margin-bottom: 18px;
+                    }
+                }
+                @media(max-width:$screen-sm-max){
+                    width: 50%;
+                }
+            }
+            &:nth-of-type(3) {
+                width: 19%;
+                h4 {
+                    margin-bottom: 26px;
+                }
+                ul {
+                    li {
+                        margin-bottom: 18px;
+                        &:nth-last-child(1) {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+                @media(max-width:$screen-sm-max){
+                    width: 50%;
+                }
+            }
+            &:nth-of-type(4) {
+                width: 23%;
+                h4 {
+                    margin-bottom: 26px;
+                }
+                ul {
+                    li {
+                        margin-bottom: 18px;
+                        &:nth-last-child(1) {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+                @media(max-width:$screen-sm-max){
+                    width: 50%;
+                }
+            }
+            &:nth-of-type(5) {
+                width: 10%;
+                h4 {
+                    &:nth-child(2) {
+                        margin-top: 192px;
+                        @media(max-width:$screen-sm-max){
+                            margin-top: 138px;
+                        }
+                    }
+                }
+                @media(max-width:$screen-sm-max){
+                    width: 50%;
+                }
+            }
+        }
+    }
+    .sitemap_list_mid {
+        margin-bottom: 78px;
+        h2 {
+            font-size: 50px;
+            color: #343434;
+            margin-bottom: 50px;
+        }
+        .sitemap_list_col {
+            width: 20%;
+            float: left;
+            @media(max-width:$screen-sm-max){
+                width: 50%;
+            }
+            a{
+                color: #343434;
+            }
+            h4 {
+                font-size: 24px;
+                color: #343434; // margin-bottom: 26px;
+                margin: 0px;
+            }
+            ul {
+                padding-left: 0px;
+                margin-bottom: 0px;
+                li {
+                    font-size: 16px;
+                    color: #343434; // margin-bottom: 18px;
+                    list-style: none;
+                }
+            }
+            &:nth-of-type(1) {
+                h4 {
+                    margin-bottom: 26px;
+                }
+                ul {
+                    li {
+                        margin-bottom: 18px;
+                        &:nth-last-child(1) {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+            &:nth-of-type(2) {
+                h4 {
+                    margin-bottom: 26px;
+                    &:nth-child(3) {
+                        margin-top: 62px;
+                    }
+                }
+                ul {
+                    li {
+                        margin-bottom: 18px;
+                        &:nth-last-child(1) {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+            &:nth-of-type(3) {
+                h4 {
+                    margin-bottom: 26px;
+                }
+                ul {
+                    li {
+                        margin-bottom: 18px;
+                        &:nth-last-child(1) {
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sitemap_list_last{
+        margin-bottom: 22px;
+        h2{
+            font-size: 50px;
+            color: #343434;
+            margin-bottom: 50px;
+        }
+        .sitemap_list_col{
+            width: 20%;
+            float: left;
+            @media(max-width:$screen-sm-max){
+                width: 50%;
+            }
+            h4{
+                font-size: 24px;
+                color: #343434;
+                margin: 0px;
+            }
+        }
+    }
+}

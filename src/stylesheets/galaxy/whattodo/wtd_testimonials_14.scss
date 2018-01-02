@@ -1,0 +1,7 @@
+#wtd_testimonials{
+  @extend #hotel_testimonials;
+  margin: 30px auto 67px;
+  @media (max-width:500px) {
+    margin: 0 20px 0 20px;
+  }
+}

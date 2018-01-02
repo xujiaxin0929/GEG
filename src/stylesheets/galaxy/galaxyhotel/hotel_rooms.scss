@@ -1,0 +1,90 @@
+#hotel_rooms {
+    h3 {
+        margin-bottom: 30px;
+    }
+    .row {
+        margin-bottom: 34px;
+        position:relative;
+        @media (max-width: $screen-sm-max) {
+            margin-bottom: 0;
+        }
+    }
+    .last-row {
+        margin-bottom: 0;
+    }
+    @media (max-width: $screen-md-min) {
+        margin-top: 15px;
+    }
+    .left-feild {
+        position: relative;
+        z-index: 3;
+        @media (min-width: $screen-md-min) {
+            width: 49%;
+            overflow: hidden;
+        }
+        &__img {
+            width: 100%;
+        }
+        .left-feild-img{
+            width:100%;
+        }
+    }
+    .right-feild {
+        @media (min-width: $screen-md-min) {
+            width: 51%;
+            position:absolute;
+            height:100%;
+            right:0;
+            &.pull-left{
+                left:0;
+                right:auto;
+            }
+        }
+        .detail {
+            padding: 0 12%;
+            display:table;
+            height:100%;
+            @media (max-width: $screen-sm-max) {
+                padding:20px 28px 25px;
+            }
+            .inner{
+                display: table-cell;
+                vertical-align: middle;
+            }
+        }
+        .h3-title {
+            position: relative;
+            display:inline-block;
+            margin: 0 auto;
+            &__line {
+                position: absolute;
+                top: 12px;
+                right: 100%;
+                width: 800px;
+                height: 1px;
+                background-color: #bbb;
+                margin-right: 20px;
+            }
+            &__line2 {
+                position: absolute;
+                top: 12px;
+                left: 100%;
+                width: 800px;
+                height: 1px;
+                background-color: #bbb;
+                margin-left: 20px;
+            }
+            @media (max-width: $screen-md-min) {
+                .special-words {}
+            }
+        }
+        p{
+        	margin: 20px 0;
+        	color:#343434;
+        	line-height: 23px;
+            @media (max-width: $screen-xs-max) {
+                margin: 10px 0;
+            }
+        }
+    }
+}

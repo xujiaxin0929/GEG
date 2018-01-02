@@ -1,0 +1,20 @@
+#spamassage_foot{
+  @extend #spamassage_banyanspa;
+  .advantage-list {
+      margin-top: 15px;
+      .img {
+          height: 26px;
+          line-height: 26px;
+          margin-bottom: 6px;
+          img {
+              max-height: 26px;
+              max-width: 72px;
+          }
+      }
+  }
+  .hidden-md{
+    @media (max-width:991px) {
+      display: none;
+    }
+  }
+}

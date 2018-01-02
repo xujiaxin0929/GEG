@@ -1,0 +1,71 @@
+#hp_occasions_11 {
+    @media (max-width: $screen-xs-max) {
+        margin-top: 36px;
+        .caption {
+            padding-left: 12px !important;
+            padding-right: 12px !important;
+        }
+    }
+    .caption {
+        padding-top: 20px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 35px;
+        @media (max-width: $screen-xs-max) {
+            padding-top: 26px;
+        }
+        .desc{
+            min-height: 44px;
+        }
+    }
+    .swiper-slide {
+        position: static;
+        .img {
+            display: block;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            transition: 0.3s;
+            -moz-transition: 0.3s;
+            &:hover {
+                transform: scale(1.1);
+                -moz-transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+        .caption {
+            p {
+                font-size: 14px;
+                color: #343434;
+                line-height: 22px;
+                @media (max-width: $screen-xs-max) {
+                    font-size: 15px;
+                    margin-top: 8px;
+                }
+            }
+            h4 {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                a{
+                    &:hover{color:#343434;text-decoration: none;}
+                    &:focus{color:#343434;text-decoration: none;}
+                }
+            }
+            >a {
+                position: absolute;
+                bottom: 0;
+                min-width: 100px;
+                @media (max-width: $screen-xs-max) {
+                    font-size: 15px;
+                    color:#ac8a59;
+                    .iconi-arrow-right{
+                        font-size: 17px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

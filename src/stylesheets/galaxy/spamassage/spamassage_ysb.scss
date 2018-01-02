@@ -1,0 +1,26 @@
+#spamassage_ysb{
+  @extend #spamassage_banyanspa;
+  .advantage-list{
+      marign-top:7px;
+     .img{
+       height:102px;
+       @media (max-width:991px) {
+        height: 73px;
+        float: left;
+       }
+       img{
+         max-height:102px;
+         max-width:100px;
+         @media (max-width:991px) {
+          max-height: 73px;
+         }
+       }
+      }
+     p{
+      @media (max-width:991px) {
+        float: left;
+        margin-top: 30px;
+      }
+     }
+  }
+}

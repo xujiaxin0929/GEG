@@ -1,0 +1,128 @@
+#grd_info_49 {
+    @media (max-width:991px) {
+        margin:25px 12px;
+    }
+    .grd_info {
+        margin-top: 20px;
+        .info {
+            line-height: 30px;
+            font-size: 16px;
+        }
+        .row {
+            margin-top: 42px;
+            position: relative;
+            .introduce-main {
+                .thumbnail {
+                    padding-right: 4.65%;
+                    padding-left: 4.18%;
+                    padding-top: 3.48%;
+                    padding-bottom: 3.48%;
+                    position: relative;
+                    margin-bottom: 0px;
+                    overflow: hidden;
+                    .medialeft {
+                        padding-right: 36px;
+                        h5 {
+                            font-weight: normal;
+                        }
+                        @media (max-width:991px) {
+                            padding-right: 0;
+                            p{
+                                font-size: 15px;
+                                line-height: 25px;
+                                color:#343434;
+                            }
+                        }
+                    }
+                    .mediaright {
+                        // position: absolute;
+                        // top: 50%;
+                        // right: 4.65%;
+                        // text-align: right;
+                        // margin-top:-18px;
+                        height:100%;
+                        a {
+                            display: inline-block;
+                            padding:0px;
+                            line-height: 36px;
+                            height: 36px;
+                            width: 200px;
+                            @media (max-width:1200px) {
+                                width:100%;
+                                margin:15px 0;
+                            }
+                            @media (min-width:1200px) {
+                                margin-top: 43px;
+                                width:100%;
+                                margin:38px 0;
+                            }
+                        }
+                    }
+                }
+            }
+            .detail-wrapper {
+                overflow: hidden;
+                @media (min-width: 991px) {
+                    position: absolute;
+                    right: 0;
+                }
+                height: 100%;
+                .detail {
+                    background-color: #f9f8f8;
+                    width: 100%;
+                    margin-left: 16px;
+                    @media(max-width: 1200px) {
+                        width: calc(100% - 16px);
+                        width: -webkit-calc(100% - 16px);
+                        width: -moz-calc(100% - 16px);
+                        width: -ms-calc(100% - 16px);
+                    }
+                    @media(max-width: 991px) {
+                        width: 100%;
+                    }
+                    @media(max-width: $screen-sm-max) {
+                        margin-top:10px;
+                        margin-left: 0px;
+                    }
+                    display: table;
+                    height: 100.5%;
+                    .inner {
+                        display: table-cell;
+                        vertical-align: middle;
+                        h5 {
+                            margin-bottom: 18px;
+                            text-align: center;
+                            @media (max-width:991px) {
+                                font-size: 26px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                        .times {
+                            margin: 10px;
+                            text-align: center;
+                            @media (max-width:991px) {
+                                font-size: 15px;
+                                line-height: 25px;
+                                color:#343434;
+                            }
+                        }
+                        .times:nth-child(3) {
+                            font-weight: 600;
+                            @media (max-width:767px) {
+                                font-weight: normal
+                            }
+                        }
+                    }
+                    @media screen and (max-width: $screen-md-max) {
+                        padding-top: 40px;
+                        padding-bottom: 20px;
+                    }
+                    @media screen and (max-width: $screen-sm-max) {
+                        padding-top: 25px;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

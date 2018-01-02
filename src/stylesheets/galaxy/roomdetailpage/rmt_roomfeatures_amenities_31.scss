@@ -1,0 +1,173 @@
+#rmt_roomfeatures_amenities_31{
+	margin-top:80px;
+	position:relative;
+	@media (min-width: $screen-sm-min) {
+		padding: 0 70px;
+	}
+	@media (max-width: $screen-xs-max) {
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+	.text-center{
+		.img-responsive{display:inline-block;}
+	}
+	.item{
+		line-height: 30px;
+		font-size: 16px;
+		margin-bottom: 65px;
+		margin-top:30px;
+		span{
+			margin-right: 8px;
+		}
+		@media (max-width: $screen-xs-max) {
+			margin-top:16px;
+			margin-bottom:40px;
+			line-height: 25px;
+			font-size: 16px;
+		}
+	}
+
+	.share{
+		margin-top: 20px;
+		position: absolute;
+		a{
+			margin-left: 12px;
+		}
+		// a:nth-child(1){
+		// 	margin-right: 20px;
+		// }
+		a:hover{
+			text-decoration: none
+		}
+		@media (min-width: $screen-md-min){
+			margin-top: -10px;
+			top:-30px;
+			right: 60px;
+		}
+		@media(max-width:$screen-md-max){
+			margin-top:0px;
+			left:50%;
+			-webkit-transform: translateX(-50%);
+			-moz-transform: translateX(-50%);
+			-ms-transform: translateX(-50%);
+			-o-transform: translateX(-50%);
+			transform: translateX(-50%);
+			top:-41px;
+		}
+		text-align: center;
+		.icon{
+			color:black;
+			// margin-left: 16px;
+			&:before{
+				font-size: 20px;
+				vertical-align: middle;
+			}
+		}
+	}
+	.introduce-main{
+		@media (min-width:$screen-sm-min) {
+			margin-bottom: 100px;
+		}
+		.row{
+			margin-bottom:24px;
+			&.last-row{
+				@media (min-width:$screen-sm-min) {
+					margin-bottom: 0;
+					.introduce-list{
+						margin-bottom: 0;
+					}
+				}
+			}
+			h4{
+				margin-bottom:10px;
+				@media (max-width:$screen-xs-min) {
+					font-size: 20px;
+				}
+			}
+			h5{
+				font-size: 18px;
+				margin-bottom:10px;
+				@media (max-width:$screen-xs-min) {
+					font-size: 16px;
+				}
+			}
+		
+			@media(max-width:$screen-xs-max){
+				margin-top:0px;
+			}
+		}
+		.home-main{
+			.row:nth-child(1){
+				margin-top:0px;
+			}			
+			border-right: 1px solid #bbb;
+			@media (max-width: $screen-md-min) {
+				height: auto;
+				padding-left: 0;
+				border-right: none;
+				.line{
+					display: block;
+					width: 54%;
+					height: 1px;
+					margin-top:23px;
+					background-color: #000; 
+				}
+			}
+		}
+		.introduce-list{
+			margin: 0;
+			font-size: 16px;
+			color:#343434;
+			list-style: none;
+			padding-left: 0;
+			li{
+				line-height: 25px;
+				height:25px;
+				color: #7b7c7b;
+				@media(min-width:$screen-xs-min){
+					line-height: 36px;
+					height:36px;
+				}
+				position:relative;
+				padding-left: 16px;
+				&:before{
+					content:"";
+					position: absolute;
+					width:7px;
+					height:7px;
+					background-color: #7b7b7b;
+					border-radius: 50%;
+					@media(max-width:$screen-xs-max){
+						top:8px;
+					}
+					@media(min-width:$screen-xs-min){
+						top:14px;
+					}
+										
+					left:0;
+				}
+			}
+			@media (min-width: $screen-md-min) {
+				margin-bottom: 24px;
+			}
+		}
+		.hotel-main{
+			padding-left: 80px;
+			@media(max-width:$screen-xs-max){
+				.row:nth-child(2){
+					margin-top:21px;
+				}
+			}
+			@media(min-width:$screen-sm-min){
+				.row:nth-child(2){
+					margin-top:31px;
+				}
+			}
+			@media (max-width: $screen-md-min) {
+				height: auto;
+				padding-left: 0;
+				border-right: none;
+			}
+		}		
+	}
+}

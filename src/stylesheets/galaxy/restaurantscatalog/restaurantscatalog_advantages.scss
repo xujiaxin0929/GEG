@@ -1,0 +1,50 @@
+  #restaurantscatalog_advantages {
+      @extend #entertainment_advertisement;
+      height: 120px;
+      padding-left: 460px;
+      background-image: url(../images/restaurantscatalog_advantages-01.png) !important;
+      background-repeat: no-repeat !important;
+      background-position: center center !important;
+      padding-left: 0;
+      background-size: contain;
+      @media (max-width: $screen-md-min) {
+          padding-left: 0;
+          background: url(../images/restaurantscatalog_advantages-2.png) no-repeat center !important;
+          background-size: cover;
+          text-align: center;
+      }
+      .restaurantscatalog_advantages-main {
+          width: 520px;
+          float: right;
+          text-align: left;
+          color: #fff;
+          @media (max-width: $screen-md-min) {
+              width: auto;
+              float: none;
+              text-align: center;
+          }
+          &__header {
+              font-size: 28px;
+              margin-top: 24px;
+              margin-bottom: 16px;
+              @media (max-width: $screen-md-min) {
+                  font-size: 16px;
+                  margin: 10px auto 8px;
+              }
+          }
+          .btn {
+              float: none;
+              margin: 0;
+              padding:0 30px;
+              line-height: 30px;
+              height:32px;
+          }
+          .btn-default{
+              &:hover{
+                  color: white;
+                  border-color: white;
+                  background-color: transparent;
+              }
+          }
+      }
+  }

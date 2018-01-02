@@ -1,0 +1,24 @@
+<div id="gm_hero_slideshow_12_01">
+	
+</div>
+<script type="text/javascript">
+	$(window).load(function () {
+		$('.flexslider').flexslider({
+			animation: "slide",
+			controlNav: "thumbnails",
+			pauseOnHover: true,
+			start: function (slider) {
+				$('body').removeClass('loading');
+				$('.panorama-view').panorama360();
+			}
+		});
+	});
+	$(document).ready(function () {
+		$(".panorama.round").css({ "width": $(".slides li").width(), "padding": "0", "height":"100%"});
+
+
+		//setTimeout(function(){$('.panorama-view').panorama360();},500);
+
+	});
+
+</script>

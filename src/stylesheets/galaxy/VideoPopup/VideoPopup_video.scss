@@ -1,0 +1,77 @@
+#VideoPopup_video {
+    position: absolute;
+    .slide-box {
+        top: 380px !important;
+    }
+    @extend #hp_hero_slideshow_09;
+    .share_bottom {
+        text-align: center;
+        font-size: 15px;
+        margin: -15px 0 15px;
+    }
+    .slide-vid {
+        position: absolute;
+        z-index: 10;
+        font-size: 16px;
+        top: 460px; // left: 50%;
+        // margin-left: -30px;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    .slide-title {
+        position: absolute;
+        z-index: 10;
+        top: 227px;
+        width: 100%;
+        text-align: center; // left: 50%;
+        // margin-left: -170px;
+        span {
+            font-size: 48px;
+            color: #fff;
+            line-height: 64px;
+        }
+        p {
+            font-size: 26px;
+            color: #fff;
+            margin-top: 16px;
+        }
+    }
+    @media (max-width: 768px) {
+        .slide-title {
+            // top: 90px;
+            span {
+                display: block;
+                font-size: 39px;
+                line-height: 44px;
+            }
+            p {
+                margin-top: 21px;
+            }
+        }
+        .slide-vid {
+            font-size: 13px;
+            // bottom: 38px;
+            top: auto; // margin-left: -82px;
+            text-align: center;
+            top: 65%;
+            margin-top: 68px;
+        }
+        .slide-box {
+            top: 65% !important; // margin-left: -58px;
+            text-align: center;
+            img {
+                height: 50px;
+            }
+        }
+    }
+    .slide-box {
+        margin-top: 38px;
+        top: 56%;
+        @media (max-width: 991px) {
+            img {
+                // width:75px;
+            }
+        }
+    }
+}

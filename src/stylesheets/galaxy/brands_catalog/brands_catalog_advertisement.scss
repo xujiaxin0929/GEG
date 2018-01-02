@@ -1,0 +1,112 @@
+#brands_catalog_advertisement{
+  margin: 42px auto 60px;
+  background: #ccc;
+  height: 122px;
+  background: url(../images/hotel_advertisement-1.jpg) no-repeat left center;
+  // background-size: cover;
+  background-color: rgb(244,245,239);
+  padding-left: 35%;
+  @media (min-width: 1000px) {
+    padding-left: 420px;
+  }
+  @media (min-width: 1240px) {
+    padding-left: 470px;
+  }
+  @media (max-width: 1000px) {
+    padding-left: 0;
+    background: url(../images/hotel_advertisement-2.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+  }
+  @media (max-width: 767px) {
+    margin:0px 0 30px 0;
+  }
+  .cinema_advertisement-main{
+    float: left;
+    padding-top: 20px;
+    @media (max-width: 1000px) {
+      padding-top: 10px;
+      float: none;
+      color: #fff;
+    }
+    &__header{
+      font-size: 28px;
+      @media (max-width: 1240px) {
+        font-size: 24px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 18px;
+        text-align: center;
+      }
+    }
+    &__describe{
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      @media (max-width: 1240px) {
+        font-size: 16px;
+      }
+      @media (max-width: 1000px) {
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+  }
+  .info{
+    margin-right: 32px;
+    margin-top: 40px;
+    float: right;
+    cursor: pointer;
+    color: #997542;
+    background-color: transparent;
+    border: 1px solid #997542;
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    @media (max-width: 1240px) {
+      margin-right: 16px;
+      padding: 6px 35px;
+    }
+    @media (max-width: 1000px) {
+      margin: 0 auto;
+      float: none;
+      margin-right: 0;
+      margin-top:10px;
+      padding: 4px 34px;
+      border-color: #fff;
+      color:#fff;
+    }
+    a{
+      &:hover{
+        color: #997542;
+        text-decoration: none;
+      }
+    }
+  }
+  
+}
+  #brands_catalog_advertisement {
+        .cinema_advertisement-main__describe {
+            width: 366px;
+            font-size: 14px;
+            @media(min-width: 1720px) {
+                width: 540px;
+            }
+            @media(max-width:$screen-sm-max) {
+                margin-top: 0px;
+            }
+        }
+        .cinema_advertisement-main__header {
+            font-size: 22px;
+            @media(max-width: $screen-sm-max) {
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+        }
+        .info {
+            letter-spacing: 0px;
+        }
+    }

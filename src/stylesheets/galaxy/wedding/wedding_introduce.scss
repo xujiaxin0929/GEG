@@ -1,0 +1,13 @@
+#wedding_introduce{
+  @extend #micepage_introduce;
+  .btn-info{
+    @media (max-width:991px) {
+      margin-top: 0;
+      display: block;
+      margin: 0 37px;
+      font-size: 17px;
+      line-height: 38px;
+      padding:0;
+    }
+  }
+}
